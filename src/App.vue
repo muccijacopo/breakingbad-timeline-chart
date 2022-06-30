@@ -5,13 +5,11 @@ import Chart from './components/Chart.vue'
 </script>
 
 <template>
-  <Chart :episodes="episodes" />
+  <Chart :episodes="episodes.filter(e => e.series?.includes('Breaking Bad'))" :characters="dataset.slice(0, 20)" />
 </template>
 
 <style>
 @import './assets/base.css';
 
-#app {
-  padding: 1rem;
-}
+#app {}
 </style>
