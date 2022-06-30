@@ -29,13 +29,14 @@ function getNumberOfEpisodesBySeason(season: number): number {
 }
 
 function getXPositionByEpisode(episode: number, season: number) {
-    if (season == 1 && episode == 1) return 30;
+    episode -= 1;
     let totalEpisodes = 0;
-    for (const s of Array.from(Array(season)).keys()) {
-        totalEpisodes += getNumberOfEpisodesBySeason(s);
-    }
+    if (season > 1)
+        for (const s of Array.from(Array(season)).keys()) {
+            totalEpisodes += getNumberOfEpisodesBySeason(s);
+        }
     totalEpisodes += episode;
-    const x = episodeAreaWidth * totalEpisodes;
+    const x = (episodeAreaWidth * totalEpisodes);
     return x
 }
 
@@ -43,9 +44,20 @@ function calculatePositionsByCharacter(characters: Character[] = props.character
     if (!characters || !episodes) return {};
     const r: { [key: number]: { x: number, y: number }[] } = {};
     characters.forEach((character, idx) => {
-        const y = idx * 80;
+        // Initialize character position (bullet image)
+        if (!r[character.id]) r[character.id] = [
+            { x: getXPositionByEpisode(+character.appearances[0].episode, +character.appearances[0].season), y: idx * 90 },
+            { x: getXPositionByEpisode(+character.appearances[0].episode, +character.appearances[0].season) + 100, y: idx * 90 }
+        ]
+        let x: number;
+        let y: number;
+        for (const ep of episodes) {
+            const app = character.appearances.find(e => +e.episode == +ep.episode && +e.season == +ep.season);
+            // character appearance move y to episode area
+            if (app) y = 320 + (10 * idx);
+            else y = (idx * 90)
+        }
         character.appearances.forEach(appearance => {
-            if (!r[character.id]) r[character.id] = [];
             r[character.id].push({ x: getXPositionByEpisode(+appearance.episode, +appearance.season), y })
         })
     })
@@ -91,9 +103,14 @@ svg {
     position: absolute;
     background: var(--color-text);
     color: var(--color-background);
-    padding: 5px 10px;
+    height: 200px;
+    width: 30px;
+    writing-mode: vertical-rl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-overflow: ellipsis;
     width: 100px;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 </style>
