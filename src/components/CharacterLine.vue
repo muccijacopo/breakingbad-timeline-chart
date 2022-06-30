@@ -15,11 +15,7 @@ const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`
 </script>
 
 <style scoped>
-circle {
-    color: white;
-}
-
 text {
-    fill: white;
+    fill: var(--color-text);
 }
 </style>

@@ -89,10 +89,11 @@ svg {
 
 .episode-card {
     position: absolute;
-    background: #fafafa;
+    background: var(--color-text);
     color: var(--color-background);
     padding: 5px 10px;
     text-overflow: ellipsis;
     width: 100px;
+    opacity: 0.8;
 }
 </style>
