@@ -9,6 +9,8 @@
             top: positionsByEpisode[idx].y + 'vh',
             left: positionsByEpisode[idx].x + 'px',
             transform: 'translateY(-50%)',
+            height: episodeAreaHeight + 'px',
+            width: episodeCardWidth + 'px'
         }">
             {{ episode.season }} / {{ episode.episode }}
         </div>
@@ -27,7 +29,7 @@ const props = defineProps(["episodes", "characters"]);
 
 const extraLeftArea = 300;
 const episodeAreaWidth = 300;
-const episodeAreaHeight = 200;
+const episodeAreaHeight = 300;
 const episodeCardWidth = 100;
 const episodeHalfArea = (episodeCardWidth - episodeCardWidth) / 2;
 
@@ -69,7 +71,6 @@ function calculatePositionsByCharacter(
     if (!characters || !episodes) return {};
     const r: { [key: number]: { x: number | string; y: number | string }[] } = {};
     const top = getTopPositionOfEpisodeArea();
-    debugger;
     characters.forEach((character, idx) => {
         // Calculate default Y position
         let defaultYPosition = idx * 90;
@@ -102,7 +103,7 @@ function calculatePositionsByCharacter(
                 (e) => +e.episode == +ep.episode && +e.season == +ep.season
             );
             r[character.id].push({
-                y: app ? top + 10 * idx : defaultYPosition,
+                y: app ? top + 20 * idx : defaultYPosition,
                 x: getXPositionByEpisode(+ep.episode, +ep.season)
             })
         }
@@ -156,20 +157,16 @@ svg {
     position: absolute;
     background: var(--color-text);
     color: var(--color-background);
-    height: 200px;
-    width: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
     writing-mode: vertical-rl;
     display: flex;
     justify-content: center;
     align-items: center;
     text-overflow: ellipsis;
     width: 100px;
-    opacity: 0.7;
-    border-radius: 12px;
+    opacity: 0.5;
+    /* border-radius: 12px; */
     transition: opacity 0.5s ease;
-}
-
-.episode-card:hover {
-    opacity: 1;
 }
 </style>
