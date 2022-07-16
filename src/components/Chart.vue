@@ -6,11 +6,8 @@
         </svg>
         <div :style="{ height: characters.length * 30 + 'px' }"></div>
         <div v-for="(episode, idx) in episodes" class="episode-card" :ref="(el) => (episodesRefs[idx] = el)" :style="{
-            top: '50vh',
-            left:
-                (episodeAreaWidth - episodeCardWidth) / 2 +
-                idx * episodeAreaWidth +
-                'px',
+            top: positionsByEpisode[idx].y + 'vh',
+            left: positionsByEpisode[idx].x + 'px',
             transform: 'translateY(-50%)',
         }">
             {{ episode.season }} / {{ episode.episode }}
@@ -22,14 +19,17 @@
 import { onMounted, ref } from "vue";
 import type { Character } from "@/models/Character";
 import type { Episode } from "@/models/Episode";
-import { getNumberOfEpisodesBySeason } from "@/utils/utils";
+import { getNumberOfEpisodesBySeason, isBeforeThan } from "@/utils/utils";
+import type { Point } from '@/utils/utils';
 import CharacterLine from "./CharacterLine.vue";
 
 const props = defineProps(["episodes", "characters"]);
 
+const extraLeftArea = 300;
 const episodeAreaWidth = 300;
 const episodeAreaHeight = 200;
 const episodeCardWidth = 100;
+const episodeHalfArea = (episodeCardWidth - episodeCardWidth) / 2;
 
 function getXPositionByEpisode(episode: number, season: number) {
     episode -= 1;
@@ -39,15 +39,28 @@ function getXPositionByEpisode(episode: number, season: number) {
             totalEpisodes += getNumberOfEpisodesBySeason(props.episodes, s);
         }
     totalEpisodes += episode;
-    const x = (episodeAreaWidth * totalEpisodes) - ((episodeAreaWidth - episodeCardWidth) / 2);
+    // const x = (episodeAreaWidth * totalEpisodes) - ((episodeAreaWidth - episodeCardWidth) / 2);
+    const x = (episodeAreaWidth * totalEpisodes);
     return x;
 }
 
 function getTopPositionOfEpisodeArea() {
-    const rect = (episodesRefs.value?.[0] as HTMLElement)?.getBoundingClientRect();
+    const rect = (episodesRefs.value?.[5] as HTMLElement)?.getBoundingClientRect();
     if (!rect) return 0;
     return rect.top;
 }
+
+function calculatePositionsByEpisode(episodes: Episode[] = props.episodes): Point[] {
+    const r = episodes.map((_, idx) => {
+        if (idx == 0) return ({ x: extraLeftArea + episodeHalfArea, y: 50 });
+        else return {
+            x: extraLeftArea + episodeAreaWidth * idx,
+            y: 50
+        }
+    })
+    return r;
+}
+
 
 function calculatePositionsByCharacter(
     characters: Character[] = props.characters,
@@ -56,50 +69,50 @@ function calculatePositionsByCharacter(
     if (!characters || !episodes) return {};
     const r: { [key: number]: { x: number | string; y: number | string }[] } = {};
     const top = getTopPositionOfEpisodeArea();
+    debugger;
     characters.forEach((character, idx) => {
-        // Initialize character position (bullet image)
+        // Calculate default Y position
+        let defaultYPosition = idx * 90;
+        if (defaultYPosition > top && defaultYPosition < top + episodeAreaHeight) defaultYPosition = defaultYPosition + episodeAreaHeight;
+
+        const firstAppearance = character.appearances[0];
         if (!r[character.id]) {
-            let y = idx * 90;
-            if (y > top && y < top + episodeAreaHeight) y = y + episodeAreaHeight;
             r[character.id] = [
                 {
                     x: getXPositionByEpisode(
-                        +character.appearances[0].episode,
-                        +character.appearances[0].season
+                        +firstAppearance.episode,
+                        +firstAppearance.season
                     ),
-                    y: idx * 90,
+                    y: defaultYPosition,
                 },
                 {
                     x:
                         getXPositionByEpisode(
-                            +character.appearances[0].episode,
-                            +character.appearances[0].season
+                            +firstAppearance.episode,
+                            +firstAppearance.season
                         ) + 60,
-                    y: idx * 90,
+                    y: defaultYPosition,
                 },
             ];
         }
 
         for (const [epIdx, ep] of episodes.entries()) {
-            let y = r[character.id][epIdx > 1 ? epIdx - 1 : 0].y;
+            if (isBeforeThan(ep, firstAppearance as any)) continue;
             const app = character.appearances.find(
                 (e) => +e.episode == +ep.episode && +e.season == +ep.season
             );
-            // character appearance move y to episode area
-            if (app) y = top + 10 * idx;
-            character.appearances.forEach((appearance) => {
-                r[character.id].push({
-                    x: getXPositionByEpisode(+appearance.episode, +appearance.season),
-                    y,
-                });
-            });
+            r[character.id].push({
+                y: app ? top + 10 * idx : defaultYPosition,
+                x: getXPositionByEpisode(+ep.episode, +ep.season)
+            })
         }
     });
     return r;
 }
 
 const episodesRefs = ref<any>([]);
-let positionsByCharacter = ref<any>({});
+const positionsByCharacter = ref<any>({});
+const positionsByEpisode = ref<Point[]>(calculatePositionsByEpisode());
 const isReady = ref(false);
 
 onMounted(() => {
@@ -107,7 +120,6 @@ onMounted(() => {
     isReady.value = true;
 })
 
-console.log(episodesRefs.value);
 </script>
 
 <style scoped>

@@ -10,313 +10,313 @@
         },
         "appearances": [
             {
-                "season": "1",
-                "episode": "1",
+                "season": 1,
+                "episode": 1,
                 "title_ep": "Pilot"
             },
             {
-                "season": "1",
-                "episode": "2",
+                "season": 1,
+                "episode": 2,
                 "title_ep": "Cat's in the Bag..."
             },
             {
-                "season": "1",
-                "episode": "3",
+                "season": 1,
+                "episode": 3,
                 "title_ep": "...And the Bag's in the River"
             },
             {
-                "season": "1",
-                "episode": "4",
+                "season": 1,
+                "episode": 4,
                 "title_ep": "Cancer Man"
             },
             {
-                "season": "1",
-                "episode": "5",
+                "season": 1,
+                "episode": 5,
                 "title_ep": "Gray Matter"
             },
             {
-                "season": "1",
-                "episode": "6",
+                "season": 1,
+                "episode": 6,
                 "title_ep": "Crazy Handful of Nothin"
             },
             {
-                "season": " 1",
-                "episode": "7",
+                "season": 1,
+                "episode": 7,
                 "title_ep": "A No-Rough-Stuff-Type Deal"
             },
             {
-                "season": "2",
-                "episode": "1",
+                "season": 2,
+                "episode": 1,
                 "title_ep": "Seven-Thirty-Seven"
             },
             {
-                "season": "2",
-                "episode": "2",
+                "season": 2,
+                "episode": 2,
                 "title_ep": "Grilled"
             },
             {
-                "season": "2",
-                "episode": "3",
+                "season": 2,
+                "episode": 3,
                 "title_ep": "Bit by a Dead Bee"
             },
             {
-                "season": "2",
-                "episode": "4",
+                "season": 2,
+                "episode": 4,
                 "title_ep": "Down"
             },
             {
-                "season": "2",
-                "episode": "5",
+                "season": 2,
+                "episode": 5,
                 "title_ep": "Breakage"
             },
             {
-                "season": "2",
-                "episode": "6",
+                "season": 2,
+                "episode": 6,
                 "title_ep": "Peekaboo"
             },
             {
-                "season": "2",
-                "episode": "7",
+                "season": 2,
+                "episode": 7,
                 "title_ep": "Negro y Azul"
             },
             {
-                "season": "2",
-                "episode": "8",
+                "season": 2,
+                "episode": 8,
                 "title_ep": "Better Call Saul"
             },
             {
-                "season": "2",
-                "episode": "9",
+                "season": 2,
+                "episode": 9,
                 "title_ep": "4 Days Out"
             },
             {
-                "season": "2",
-                "episode": "10",
+                "season": 2,
+                "episode": 10,
                 "title_ep": "Over"
             },
             {
-                "season": "2",
-                "episode": "11",
+                "season": 2,
+                "episode": 11,
                 "title_ep": "Mandala"
             },
             {
-                "season": "2",
-                "episode": "12",
+                "season": 2,
+                "episode": 12,
                 "title_ep": "Phoenix"
             },
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             },
             {
-                "season": "3",
-                "episode": "1",
+                "season": 3,
+                "episode": 1,
                 "title_ep": "No Más"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             },
             {
-                "season": "3",
-                "episode": "3",
+                "season": 3,
+                "episode": 3,
                 "title_ep": "IFT"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "3",
-                "episode": "5",
+                "season": 3,
+                "episode": 5,
                 "title_ep": "Más"
             },
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             },
             {
-                "season": "3",
-                "episode": "7",
+                "season": 3,
+                "episode": 7,
                 "title_ep": "One Minute"
             },
             {
-                "season": "3",
-                "episode": "8",
+                "season": 3,
+                "episode": 8,
                 "title_ep": "I See You"
             },
             {
-                "season": "3",
-                "episode": "9",
+                "season": 3,
+                "episode": 9,
                 "title_ep": "Kafkaesque"
             },
             {
-                "season": "3",
-                "episode": "10",
+                "season": 3,
+                "episode": 10,
                 "title_ep": "Fly"
             },
             {
-                "season": "3",
-                "episode": "11",
+                "season": 3,
+                "episode": 11,
                 "title_ep": "Abiquiu"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "3",
-                "episode": "13",
+                "season": 3,
+                "episode": 13,
                 "title_ep": "Full Measure"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "3",
+                "season": 4,
+                "episode": 3,
                 "title_ep": "Open House"
             },
             {
-                "season": "4",
-                "episode": "4",
+                "season": 4,
+                "episode": 4,
                 "title_ep": "Bullet Points"
             },
             {
-                "season": "4",
-                "episode": "5",
+                "season": 4,
+                "episode": 5,
                 "title_ep": "Shotgun"
             },
             {
-                "season": "4",
-                "episode": "6",
+                "season": 4,
+                "episode": 6,
                 "title_ep": "Cornered"
             },
             {
-                "season": "4",
-                "episode": "7",
+                "season": 4,
+                "episode": 7,
                 "title_ep": "Problem Dog"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "9",
+                "season": 4,
+                "episode": 9,
                 "title_ep": "Bug"
             },
             {
-                "season": "4",
-                "episode": "10",
+                "season": 4,
+                "episode": 10,
                 "title_ep": "Salud"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "4",
-                "episode": "13",
+                "season": 4,
+                "episode": 13,
                 "title_ep": "Face Off"
             },
             {
-                "season": "5",
-                "episode": "1",
+                "season": 5,
+                "episode": 1,
                 "title_ep": "Live Free of Die"
             },
             {
-                "season": "5",
-                "episode": "2",
+                "season": 5,
+                "episode": 2,
                 "title_ep": "Madrigal"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "4",
+                "season": 5,
+                "episode": 4,
                 "title_ep": "Fifty-One"
             },
             {
-                "season": "5",
-                "episode": "5",
+                "season": 5,
+                "episode": 5,
                 "title_ep": "Dead Freight"
             },
             {
-                "season": "5",
-                "episode": "6",
+                "season": 5,
+                "episode": 6,
                 "title_ep": "Buyout"
             },
             {
-                "season": "5",
-                "episode": "7",
+                "season": 5,
+                "episode": 7,
                 "title_ep": "Say My Name"
             },
             {
-                "season": "5",
-                "episode": "8",
+                "season": 5,
+                "episode": 8,
                 "title_ep": "Gliding Over All"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "10",
+                "season": 5,
+                "episode": 10,
                 "title_ep": "Buried"
             },
             {
-                "season": "5",
-                "episode": "11",
+                "season": 5,
+                "episode": 11,
                 "title_ep": "Confessions"
             },
             {
-                "season": "5",
-                "episode": "12",
+                "season": 5,
+                "episode": 12,
                 "title_ep": "Rabid Dog"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "14",
+                "season": 5,
+                "episode": 14,
                 "title_ep": "Ozymandias"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -329,313 +329,313 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "1",
+                "season": 1,
+                "episode": 1,
                 "title_ep": "Pilot"
             },
             {
-                "season": "1",
-                "episode": "2",
+                "season": 1,
+                "episode": 2,
                 "title_ep": "Cat's in the Bag..."
             },
             {
-                "season": "1",
-                "episode": "3",
+                "season": 1,
+                "episode": 3,
                 "title_ep": "...And the Bag's in the River"
             },
             {
-                "season": "1",
-                "episode": "4",
+                "season": 1,
+                "episode": 4,
                 "title_ep": "Cancer Man"
             },
             {
-                "season": "1",
-                "episode": "5",
+                "season": 1,
+                "episode": 5,
                 "title_ep": "Gray Matter"
             },
             {
-                "season": "1",
-                "episode": "6",
+                "season": 1,
+                "episode": 6,
                 "title_ep": "Crazy Handful of Nothin"
             },
             {
-                "season": " 1",
-                "episode": "7",
+                "season": 1,
+                "episode": 7,
                 "title_ep": "A No-Rough-Stuff-Type Deal"
             },
             {
-                "season": "2",
-                "episode": "1",
+                "season": 2,
+                "episode": 1,
                 "title_ep": "Seven-Thirty-Seven"
             },
             {
-                "season": "2",
-                "episode": "2",
+                "season": 2,
+                "episode": 2,
                 "title_ep": "Grilled"
             },
             {
-                "season": "2",
-                "episode": "3",
+                "season": 2,
+                "episode": 3,
                 "title_ep": "Bit by a Dead Bee"
             },
             {
-                "season": "2",
-                "episode": "4",
+                "season": 2,
+                "episode": 4,
                 "title_ep": "Down"
             },
             {
-                "season": "2",
-                "episode": "5",
+                "season": 2,
+                "episode": 5,
                 "title_ep": "Breakage"
             },
             {
-                "season": "2",
-                "episode": "6",
+                "season": 2,
+                "episode": 6,
                 "title_ep": "Peekaboo"
             },
             {
-                "season": "2",
-                "episode": "7",
+                "season": 2,
+                "episode": 7,
                 "title_ep": "Negro y Azul"
             },
             {
-                "season": "2",
-                "episode": "8",
+                "season": 2,
+                "episode": 8,
                 "title_ep": "Better Call Saul"
             },
             {
-                "season": "2",
-                "episode": "9",
+                "season": 2,
+                "episode": 9,
                 "title_ep": "4 Days Out"
             },
             {
-                "season": "2",
-                "episode": "10",
+                "season": 2,
+                "episode": 10,
                 "title_ep": "Over"
             },
             {
-                "season": "2",
-                "episode": "11",
+                "season": 2,
+                "episode": 11,
                 "title_ep": "Mandala"
             },
             {
-                "season": "2",
-                "episode": "12",
+                "season": 2,
+                "episode": 12,
                 "title_ep": "Phoenix"
             },
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             },
             {
-                "season": "3",
-                "episode": "1",
+                "season": 3,
+                "episode": 1,
                 "title_ep": "No Más"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             },
             {
-                "season": "3",
-                "episode": "3",
+                "season": 3,
+                "episode": 3,
                 "title_ep": "IFT"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "3",
-                "episode": "5",
+                "season": 3,
+                "episode": 5,
                 "title_ep": "Más"
             },
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             },
             {
-                "season": "3",
-                "episode": "7",
+                "season": 3,
+                "episode": 7,
                 "title_ep": "One Minute"
             },
             {
-                "season": "3",
-                "episode": "8",
+                "season": 3,
+                "episode": 8,
                 "title_ep": "I See You"
             },
             {
-                "season": "3",
-                "episode": "9",
+                "season": 3,
+                "episode": 9,
                 "title_ep": "Kafkaesque"
             },
             {
-                "season": "3",
-                "episode": "10",
+                "season": 3,
+                "episode": 10,
                 "title_ep": "Fly"
             },
             {
-                "season": "3",
-                "episode": "11",
+                "season": 3,
+                "episode": 11,
                 "title_ep": "Abiquiu"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "3",
-                "episode": "13",
+                "season": 3,
+                "episode": 13,
                 "title_ep": "Full Measure"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "3",
+                "season": 4,
+                "episode": 3,
                 "title_ep": "Open House"
             },
             {
-                "season": "4",
-                "episode": "4",
+                "season": 4,
+                "episode": 4,
                 "title_ep": "Bullet Points"
             },
             {
-                "season": "4",
-                "episode": "5",
+                "season": 4,
+                "episode": 5,
                 "title_ep": "Shotgun"
             },
             {
-                "season": "4",
-                "episode": "6",
+                "season": 4,
+                "episode": 6,
                 "title_ep": "Cornered"
             },
             {
-                "season": "4",
-                "episode": "7",
+                "season": 4,
+                "episode": 7,
                 "title_ep": "Problem Dog"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "9",
+                "season": 4,
+                "episode": 9,
                 "title_ep": "Bug"
             },
             {
-                "season": "4",
-                "episode": "10",
+                "season": 4,
+                "episode": 10,
                 "title_ep": "Salud"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "4",
-                "episode": "13",
+                "season": 4,
+                "episode": 13,
                 "title_ep": "Face Off"
             },
             {
-                "season": "5",
-                "episode": "1",
+                "season": 5,
+                "episode": 1,
                 "title_ep": "Live Free of Die"
             },
             {
-                "season": "5",
-                "episode": "2",
+                "season": 5,
+                "episode": 2,
                 "title_ep": "Madrigal"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "4",
+                "season": 5,
+                "episode": 4,
                 "title_ep": "Fifty-One"
             },
             {
-                "season": "5",
-                "episode": "5",
+                "season": 5,
+                "episode": 5,
                 "title_ep": "Dead Freight"
             },
             {
-                "season": "5",
-                "episode": "6",
+                "season": 5,
+                "episode": 6,
                 "title_ep": "Buyout"
             },
             {
-                "season": "5",
-                "episode": "7",
+                "season": 5,
+                "episode": 7,
                 "title_ep": "Say My Name"
             },
             {
-                "season": "5",
-                "episode": "8",
+                "season": 5,
+                "episode": 8,
                 "title_ep": "Gliding Over All"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "10",
+                "season": 5,
+                "episode": 10,
                 "title_ep": "Buried"
             },
             {
-                "season": "5",
-                "episode": "11",
+                "season": 5,
+                "episode": 11,
                 "title_ep": "Confessions"
             },
             {
-                "season": "5",
-                "episode": "12",
+                "season": 5,
+                "episode": 12,
                 "title_ep": "Rabid Dog"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "14",
+                "season": 5,
+                "episode": 14,
                 "title_ep": "Ozymandias"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -648,308 +648,308 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "1",
+                "season": 1,
+                "episode": 1,
                 "title_ep": "Pilot"
             },
             {
-                "season": "1",
-                "episode": "2",
+                "season": 1,
+                "episode": 2,
                 "title_ep": "Cat's in the Bag..."
             },
             {
-                "season": "1",
-                "episode": "3",
+                "season": 1,
+                "episode": 3,
                 "title_ep": "...And the Bag's in the River"
             },
             {
-                "season": "1",
-                "episode": "4",
+                "season": 1,
+                "episode": 4,
                 "title_ep": "Cancer Man"
             },
             {
-                "season": "1",
-                "episode": "5",
+                "season": 1,
+                "episode": 5,
                 "title_ep": "Gray Matter"
             },
             {
-                "season": "1",
-                "episode": "6",
+                "season": 1,
+                "episode": 6,
                 "title_ep": "Crazy Handful of Nothin"
             },
             {
-                "season": " 1",
-                "episode": "7",
+                "season": 1,
+                "episode": 7,
                 "title_ep": "A No-Rough-Stuff-Type Deal"
             },
             {
-                "season": "2",
-                "episode": "1",
+                "season": 2,
+                "episode": 1,
                 "title_ep": "Seven-Thirty-Seven"
             },
             {
-                "season": "2",
-                "episode": "2",
+                "season": 2,
+                "episode": 2,
                 "title_ep": "Grilled"
             },
             {
-                "season": "2",
-                "episode": "3",
+                "season": 2,
+                "episode": 3,
                 "title_ep": "Bit by a Dead Bee"
             },
             {
-                "season": "2",
-                "episode": "4",
+                "season": 2,
+                "episode": 4,
                 "title_ep": "Down"
             },
             {
-                "season": "2",
-                "episode": "5",
+                "season": 2,
+                "episode": 5,
                 "title_ep": "Breakage"
             },
             {
-                "season": "2",
-                "episode": "6",
+                "season": 2,
+                "episode": 6,
                 "title_ep": "Peekaboo"
             },
             {
-                "season": "2",
-                "episode": "7",
+                "season": 2,
+                "episode": 7,
                 "title_ep": "Negro y Azul"
             },
             {
-                "season": "2",
-                "episode": "8",
+                "season": 2,
+                "episode": 8,
                 "title_ep": "Better Call Saul"
             },
             {
-                "season": "2",
-                "episode": "9",
+                "season": 2,
+                "episode": 9,
                 "title_ep": "4 Days Out"
             },
             {
-                "season": "2",
-                "episode": "10",
+                "season": 2,
+                "episode": 10,
                 "title_ep": "Over"
             },
             {
-                "season": "2",
-                "episode": "11",
+                "season": 2,
+                "episode": 11,
                 "title_ep": "Mandala"
             },
             {
-                "season": "2",
-                "episode": "12",
+                "season": 2,
+                "episode": 12,
                 "title_ep": "Phoenix"
             },
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             },
             {
-                "season": "3",
-                "episode": "1",
+                "season": 3,
+                "episode": 1,
                 "title_ep": "No Más"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             },
             {
-                "season": "3",
-                "episode": "3",
+                "season": 3,
+                "episode": 3,
                 "title_ep": "IFT"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "3",
-                "episode": "5",
+                "season": 3,
+                "episode": 5,
                 "title_ep": "Más"
             },
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             },
             {
-                "season": "3",
-                "episode": "7",
+                "season": 3,
+                "episode": 7,
                 "title_ep": "One Minute"
             },
             {
-                "season": "3",
-                "episode": "8",
+                "season": 3,
+                "episode": 8,
                 "title_ep": "I See You"
             },
             {
-                "season": "3",
-                "episode": "9",
+                "season": 3,
+                "episode": 9,
                 "title_ep": "Kafkaesque"
             },
             {
-                "season": "3",
-                "episode": "11",
+                "season": 3,
+                "episode": 11,
                 "title_ep": "Abiquiu"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "3",
-                "episode": "13",
+                "season": 3,
+                "episode": 13,
                 "title_ep": "Full Measure"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "3",
+                "season": 4,
+                "episode": 3,
                 "title_ep": "Open House"
             },
             {
-                "season": "4",
-                "episode": "4",
+                "season": 4,
+                "episode": 4,
                 "title_ep": "Bullet Points"
             },
             {
-                "season": "4",
-                "episode": "5",
+                "season": 4,
+                "episode": 5,
                 "title_ep": "Shotgun"
             },
             {
-                "season": "4",
-                "episode": "6",
+                "season": 4,
+                "episode": 6,
                 "title_ep": "Cornered"
             },
             {
-                "season": "4",
-                "episode": "7",
+                "season": 4,
+                "episode": 7,
                 "title_ep": "Problem Dog"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "9",
+                "season": 4,
+                "episode": 9,
                 "title_ep": "Bug"
             },
             {
-                "season": "4",
-                "episode": "10",
+                "season": 4,
+                "episode": 10,
                 "title_ep": "Salud"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "4",
-                "episode": "13",
+                "season": 4,
+                "episode": 13,
                 "title_ep": "Face Off"
             },
             {
-                "season": "5",
-                "episode": "1",
+                "season": 5,
+                "episode": 1,
                 "title_ep": "Live Free of Die"
             },
             {
-                "season": "5",
-                "episode": "2",
+                "season": 5,
+                "episode": 2,
                 "title_ep": "Madrigal"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "4",
+                "season": 5,
+                "episode": 4,
                 "title_ep": "Fifty-One"
             },
             {
-                "season": "5",
-                "episode": "5",
+                "season": 5,
+                "episode": 5,
                 "title_ep": "Dead Freight"
             },
             {
-                "season": "5",
-                "episode": "6",
+                "season": 5,
+                "episode": 6,
                 "title_ep": "Buyout"
             },
             {
-                "season": "5",
-                "episode": "7",
+                "season": 5,
+                "episode": 7,
                 "title_ep": "Say My Name"
             },
             {
-                "season": "5",
-                "episode": "8",
+                "season": 5,
+                "episode": 8,
                 "title_ep": "Gliding Over All"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "10",
+                "season": 5,
+                "episode": 10,
                 "title_ep": "Buried"
             },
             {
-                "season": "5",
-                "episode": "11",
+                "season": 5,
+                "episode": 11,
                 "title_ep": "Confessions"
             },
             {
-                "season": "5",
-                "episode": "12",
+                "season": 5,
+                "episode": 12,
                 "title_ep": "Rabid Dog"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "14",
+                "season": 5,
+                "episode": 14,
                 "title_ep": "Ozymandias"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -962,263 +962,263 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "1",
+                "season": 1,
+                "episode": 1,
                 "title_ep": "Pilot"
             },
             {
-                "season": "1",
-                "episode": "2",
+                "season": 1,
+                "episode": 2,
                 "title_ep": "Cat's in the Bag..."
             },
             {
-                "season": "1",
-                "episode": "3",
+                "season": 1,
+                "episode": 3,
                 "title_ep": "...And the Bag's in the River"
             },
             {
-                "season": "1",
-                "episode": "4",
+                "season": 1,
+                "episode": 4,
                 "title_ep": "Cancer Man"
             },
             {
-                "season": "1",
-                "episode": "5",
+                "season": 1,
+                "episode": 5,
                 "title_ep": "Gray Matter"
             },
             {
-                "season": "1",
-                "episode": "6",
+                "season": 1,
+                "episode": 6,
                 "title_ep": "Crazy Handful of Nothin"
             },
             {
-                "season": " 1",
-                "episode": "7",
+                "season": 1,
+                "episode": 7,
                 "title_ep": "A No-Rough-Stuff-Type Deal"
             },
             {
-                "season": "2",
-                "episode": "1",
+                "season": 2,
+                "episode": 1,
                 "title_ep": "Seven-Thirty-Seven"
             },
             {
-                "season": "2",
-                "episode": "2",
+                "season": 2,
+                "episode": 2,
                 "title_ep": "Grilled"
             },
             {
-                "season": "2",
-                "episode": "3",
+                "season": 2,
+                "episode": 3,
                 "title_ep": "Bit by a Dead Bee"
             },
             {
-                "season": "2",
-                "episode": "4",
+                "season": 2,
+                "episode": 4,
                 "title_ep": "Down"
             },
             {
-                "season": "2",
-                "episode": "5",
+                "season": 2,
+                "episode": 5,
                 "title_ep": "Breakage"
             },
             {
-                "season": "2",
-                "episode": "6",
+                "season": 2,
+                "episode": 6,
                 "title_ep": "Peekaboo"
             },
             {
-                "season": "2",
-                "episode": "7",
+                "season": 2,
+                "episode": 7,
                 "title_ep": "Negro y Azul"
             },
             {
-                "season": "2",
-                "episode": "9",
+                "season": 2,
+                "episode": 9,
                 "title_ep": "4 Days Out"
             },
             {
-                "season": "2",
-                "episode": "10",
+                "season": 2,
+                "episode": 10,
                 "title_ep": "Over"
             },
             {
-                "season": "2",
-                "episode": "12",
+                "season": 2,
+                "episode": 12,
                 "title_ep": "Phoenix"
             },
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             },
             {
-                "season": "3",
-                "episode": "1",
+                "season": 3,
+                "episode": 1,
                 "title_ep": "No Más"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             },
             {
-                "season": "3",
-                "episode": "3",
+                "season": 3,
+                "episode": 3,
                 "title_ep": "IFT"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "3",
-                "episode": "5",
+                "season": 3,
+                "episode": 5,
                 "title_ep": "Más"
             },
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             },
             {
-                "season": "3",
-                "episode": "8",
+                "season": 3,
+                "episode": 8,
                 "title_ep": "I See You"
             },
             {
-                "season": "3",
-                "episode": "9",
+                "season": 3,
+                "episode": 9,
                 "title_ep": "Kafkaesque"
             },
             {
-                "season": "3",
-                "episode": "11",
+                "season": 3,
+                "episode": 11,
                 "title_ep": "Abiquiu"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "3",
-                "episode": "13",
+                "season": 3,
+                "episode": 13,
                 "title_ep": "Full Measure"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "4",
+                "season": 4,
+                "episode": 4,
                 "title_ep": "Bullet Points"
             },
             {
-                "season": "4",
-                "episode": "5",
+                "season": 4,
+                "episode": 5,
                 "title_ep": "Shotgun"
             },
             {
-                "season": "4",
-                "episode": "6",
+                "season": 4,
+                "episode": 6,
                 "title_ep": "Cornered"
             },
             {
-                "season": "4",
-                "episode": "7",
+                "season": 4,
+                "episode": 7,
                 "title_ep": "Problem Dog"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "10",
+                "season": 4,
+                "episode": 10,
                 "title_ep": "Salud"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "4",
-                "episode": "13",
+                "season": 4,
+                "episode": 13,
                 "title_ep": "Face Off"
             },
             {
-                "season": "5",
-                "episode": "1",
+                "season": 5,
+                "episode": 1,
                 "title_ep": "Live Free of Die"
             },
             {
-                "season": "5",
-                "episode": "2",
+                "season": 5,
+                "episode": 2,
                 "title_ep": "Madrigal"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "4",
+                "season": 5,
+                "episode": 4,
                 "title_ep": "Fifty-One"
             },
             {
-                "season": "5",
-                "episode": "5",
+                "season": 5,
+                "episode": 5,
                 "title_ep": "Dead Freight"
             },
             {
-                "season": "5",
-                "episode": "8",
+                "season": 5,
+                "episode": 8,
                 "title_ep": "Gliding Over All"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "11",
+                "season": 5,
+                "episode": 11,
                 "title_ep": "Confessions"
             },
             {
-                "season": "5",
-                "episode": "12",
+                "season": 5,
+                "episode": 12,
                 "title_ep": "Rabid Dog"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "14",
+                "season": 5,
+                "episode": 14,
                 "title_ep": "Ozymandias"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -1234,258 +1234,258 @@
         },
         "appearances": [
             {
-                "season": "1",
-                "episode": "1",
+                "season": 1,
+                "episode": 1,
                 "title_ep": "Pilot"
             },
             {
-                "season": "1",
-                "episode": "3",
+                "season": 1,
+                "episode": 3,
                 "title_ep": "...And the Bag's in the River"
             },
             {
-                "season": "1",
-                "episode": "4",
+                "season": 1,
+                "episode": 4,
                 "title_ep": "Cancer Man"
             },
             {
-                "season": "1",
-                "episode": "5",
+                "season": 1,
+                "episode": 5,
                 "title_ep": "Gray Matter"
             },
             {
-                "season": "1",
-                "episode": "6",
+                "season": 1,
+                "episode": 6,
                 "title_ep": "Crazy Handful of Nothin"
             },
             {
-                "season": " 1",
-                "episode": "7",
+                "season": 1,
+                "episode": 7,
                 "title_ep": "A No-Rough-Stuff-Type Deal"
             },
             {
-                "season": "2",
-                "episode": "1",
+                "season": 2,
+                "episode": 1,
                 "title_ep": "Seven-Thirty-Seven"
             },
             {
-                "season": "2",
-                "episode": "2",
+                "season": 2,
+                "episode": 2,
                 "title_ep": "Grilled"
             },
             {
-                "season": "2",
-                "episode": "3",
+                "season": 2,
+                "episode": 3,
                 "title_ep": "Bit by a Dead Bee"
             },
             {
-                "season": "2",
-                "episode": "5",
+                "season": 2,
+                "episode": 5,
                 "title_ep": "Breakage"
             },
             {
-                "season": "2",
-                "episode": "7",
+                "season": 2,
+                "episode": 7,
                 "title_ep": "Negro y Azul"
             },
             {
-                "season": "2",
-                "episode": "8",
+                "season": 2,
+                "episode": 8,
                 "title_ep": "Better Call Saul"
             },
             {
-                "season": "2",
-                "episode": "9",
+                "season": 2,
+                "episode": 9,
                 "title_ep": "4 Days Out"
             },
             {
-                "season": "2",
-                "episode": "10",
+                "season": 2,
+                "episode": 10,
                 "title_ep": "Over"
             },
             {
-                "season": "2",
-                "episode": "12",
+                "season": 2,
+                "episode": 12,
                 "title_ep": "Phoenix"
             },
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             },
             {
-                "season": "3",
-                "episode": "1",
+                "season": 3,
+                "episode": 1,
                 "title_ep": "No Más"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             },
             {
-                "season": "3",
-                "episode": "3",
+                "season": 3,
+                "episode": 3,
                 "title_ep": "IFT"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "3",
-                "episode": "5",
+                "season": 3,
+                "episode": 5,
                 "title_ep": "Más"
             },
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             },
             {
-                "season": "3",
-                "episode": "7",
+                "season": 3,
+                "episode": 7,
                 "title_ep": "One Minute"
             },
             {
-                "season": "3",
-                "episode": "8",
+                "season": 3,
+                "episode": 8,
                 "title_ep": "I See You"
             },
             {
-                "season": "3",
-                "episode": "9",
+                "season": 3,
+                "episode": 9,
                 "title_ep": "Kafkaesque"
             },
             {
-                "season": "3",
-                "episode": "11",
+                "season": 3,
+                "episode": 11,
                 "title_ep": "Abiquiu"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "3",
+                "season": 4,
+                "episode": 3,
                 "title_ep": "Open House"
             },
             {
-                "season": "4",
-                "episode": "4",
+                "season": 4,
+                "episode": 4,
                 "title_ep": "Bullet Points"
             },
             {
-                "season": "4",
-                "episode": "5",
+                "season": 4,
+                "episode": 5,
                 "title_ep": "Shotgun"
             },
             {
-                "season": "4",
-                "episode": "7",
+                "season": 4,
+                "episode": 7,
                 "title_ep": "Problem Dog"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "9",
+                "season": 4,
+                "episode": 9,
                 "title_ep": "Bug"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "4",
-                "episode": "13",
+                "season": 4,
+                "episode": 13,
                 "title_ep": "Face Off"
             },
             {
-                "season": "5",
-                "episode": "1",
+                "season": 5,
+                "episode": 1,
                 "title_ep": "Live Free of Die"
             },
             {
-                "season": "5",
-                "episode": "2",
+                "season": 5,
+                "episode": 2,
                 "title_ep": "Madrigal"
             },
             {
-                "season": "5",
-                "episode": "4",
+                "season": 5,
+                "episode": 4,
                 "title_ep": "Fifty-One"
             },
             {
-                "season": "5",
-                "episode": "5",
+                "season": 5,
+                "episode": 5,
                 "title_ep": "Dead Freight"
             },
             {
-                "season": "5",
-                "episode": "6",
+                "season": 5,
+                "episode": 6,
                 "title_ep": "Buyout"
             },
             {
-                "season": "5",
-                "episode": "7",
+                "season": 5,
+                "episode": 7,
                 "title_ep": "Say My Name"
             },
             {
-                "season": "5",
-                "episode": "8",
+                "season": 5,
+                "episode": 8,
                 "title_ep": "Gliding Over All"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "10",
+                "season": 5,
+                "episode": 10,
                 "title_ep": "Buried"
             },
             {
-                "season": "5",
-                "episode": "11",
+                "season": 5,
+                "episode": 11,
                 "title_ep": "Confessions"
             },
             {
-                "season": "5",
-                "episode": "12",
+                "season": 5,
+                "episode": 12,
                 "title_ep": "Rabid Dog"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "14",
+                "season": 5,
+                "episode": 14,
                 "title_ep": "Ozymandias"
             }
         ]
@@ -1498,258 +1498,258 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "1",
+                "season": 1,
+                "episode": 1,
                 "title_ep": "Pilot"
             },
             {
-                "season": "1",
-                "episode": "3",
+                "season": 1,
+                "episode": 3,
                 "title_ep": "...And the Bag's in the River"
             },
             {
-                "season": "1",
-                "episode": "4",
+                "season": 1,
+                "episode": 4,
                 "title_ep": "Cancer Man"
             },
             {
-                "season": "1",
-                "episode": "5",
+                "season": 1,
+                "episode": 5,
                 "title_ep": "Gray Matter"
             },
             {
-                "season": "1",
-                "episode": "6",
+                "season": 1,
+                "episode": 6,
                 "title_ep": "Crazy Handful of Nothin"
             },
             {
-                "season": " 1",
-                "episode": "7",
+                "season": 1,
+                "episode": 7,
                 "title_ep": "A No-Rough-Stuff-Type Deal"
             },
             {
-                "season": "2",
-                "episode": "1",
+                "season": 2,
+                "episode": 1,
                 "title_ep": "Seven-Thirty-Seven"
             },
             {
-                "season": "2",
-                "episode": "2",
+                "season": 2,
+                "episode": 2,
                 "title_ep": "Grilled"
             },
             {
-                "season": "2",
-                "episode": "3",
+                "season": 2,
+                "episode": 3,
                 "title_ep": "Bit by a Dead Bee"
             },
             {
-                "season": "2",
-                "episode": "5",
+                "season": 2,
+                "episode": 5,
                 "title_ep": "Breakage"
             },
             {
-                "season": "2",
-                "episode": "6",
+                "season": 2,
+                "episode": 6,
                 "title_ep": "Peekaboo"
             },
             {
-                "season": "2",
-                "episode": "7",
+                "season": 2,
+                "episode": 7,
                 "title_ep": "Negro y Azul"
             },
             {
-                "season": "2",
-                "episode": "8",
+                "season": 2,
+                "episode": 8,
                 "title_ep": "Better Call Saul"
             },
             {
-                "season": "2",
-                "episode": "9",
+                "season": 2,
+                "episode": 9,
                 "title_ep": "4 Days Out"
             },
             {
-                "season": "2",
-                "episode": "10",
+                "season": 2,
+                "episode": 10,
                 "title_ep": "Over"
             },
             {
-                "season": "2",
-                "episode": "12",
+                "season": 2,
+                "episode": 12,
                 "title_ep": "Phoenix"
             },
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             },
             {
-                "season": "3",
-                "episode": "1",
+                "season": 3,
+                "episode": 1,
                 "title_ep": "No Más"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "3",
-                "episode": "5",
+                "season": 3,
+                "episode": 5,
                 "title_ep": "Más"
             },
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             },
             {
-                "season": "3",
-                "episode": "7",
+                "season": 3,
+                "episode": 7,
                 "title_ep": "One Minute"
             },
             {
-                "season": "3",
-                "episode": "8",
+                "season": 3,
+                "episode": 8,
                 "title_ep": "I See You"
             },
             {
-                "season": "3",
-                "episode": "9",
+                "season": 3,
+                "episode": 9,
                 "title_ep": "Kafkaesque"
             },
             {
-                "season": "3",
-                "episode": "11",
+                "season": 3,
+                "episode": 11,
                 "title_ep": "Abiquiu"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "3",
+                "season": 4,
+                "episode": 3,
                 "title_ep": "Open House"
             },
             {
-                "season": "4",
-                "episode": "4",
+                "season": 4,
+                "episode": 4,
                 "title_ep": "Bullet Points"
             },
             {
-                "season": "4",
-                "episode": "5",
+                "season": 4,
+                "episode": 5,
                 "title_ep": "Shotgun"
             },
             {
-                "season": "4",
-                "episode": "7",
+                "season": 4,
+                "episode": 7,
                 "title_ep": "Problem Dog"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "9",
+                "season": 4,
+                "episode": 9,
                 "title_ep": "Bug"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "4",
-                "episode": "13",
+                "season": 4,
+                "episode": 13,
                 "title_ep": "Face Off"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "4",
+                "season": 5,
+                "episode": 4,
                 "title_ep": "Fifty-One"
             },
             {
-                "season": "5",
-                "episode": "5",
+                "season": 5,
+                "episode": 5,
                 "title_ep": "Dead Freight"
             },
             {
-                "season": "5",
-                "episode": "6",
+                "season": 5,
+                "episode": 6,
                 "title_ep": "Buyout"
             },
             {
-                "season": "5",
-                "episode": "8",
+                "season": 5,
+                "episode": 8,
                 "title_ep": "Gliding Over All"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "10",
+                "season": 5,
+                "episode": 10,
                 "title_ep": "Buried"
             },
             {
-                "season": "5",
-                "episode": "11",
+                "season": 5,
+                "episode": 11,
                 "title_ep": "Confessions"
             },
             {
-                "season": "5",
-                "episode": "12",
+                "season": 5,
+                "episode": 12,
                 "title_ep": "Rabid Dog"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "14",
+                "season": 5,
+                "episode": 14,
                 "title_ep": "Ozymandias"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -1765,123 +1765,123 @@
         },
         "appearances": [
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "3",
-                "episode": "8",
+                "season": 3,
+                "episode": 8,
                 "title_ep": "I See You"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "3",
-                "episode": "13",
+                "season": 3,
+                "episode": 13,
                 "title_ep": "Full Measure"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "4",
+                "season": 4,
+                "episode": 4,
                 "title_ep": "Bullet Points"
             },
             {
-                "season": "4",
-                "episode": "5",
+                "season": 4,
+                "episode": 5,
                 "title_ep": "Shotgun"
             },
             {
-                "season": "4",
-                "episode": "6",
+                "season": 4,
+                "episode": 6,
                 "title_ep": "Cornered"
             },
             {
-                "season": "4",
-                "episode": "7",
+                "season": 4,
+                "episode": 7,
                 "title_ep": "Problem Dog"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "9",
+                "season": 4,
+                "episode": 9,
                 "title_ep": "Bug"
             },
             {
-                "season": "4",
-                "episode": "10",
+                "season": 4,
+                "episode": 10,
                 "title_ep": "Salud"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "5",
-                "episode": "1",
+                "season": 5,
+                "episode": 1,
                 "title_ep": "Live Free of Die"
             },
             {
-                "season": "5",
-                "episode": "2",
+                "season": 5,
+                "episode": 2,
                 "title_ep": "Madrigal"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "4",
+                "season": 5,
+                "episode": 4,
                 "title_ep": "Fifty-One"
             },
             {
-                "season": "5",
-                "episode": "5",
+                "season": 5,
+                "episode": 5,
                 "title_ep": "Dead Freight"
             },
             {
-                "season": "5",
-                "episode": "6",
+                "season": 5,
+                "episode": 6,
                 "title_ep": "Buyout"
             },
             {
-                "season": "5",
-                "episode": "7",
+                "season": 5,
+                "episode": 7,
                 "title_ep": "Say My Name"
             },
             {
-                "season": "5",
-                "episode": "8",
+                "season": 5,
+                "episode": 8,
                 "title_ep": "Gliding Over All"
             }
         ]
@@ -1894,183 +1894,183 @@
         "death": {},
         "appearances": [
             {
-                "season": "2",
-                "episode": "8",
+                "season": 2,
+                "episode": 8,
                 "title_ep": "Better Call Saul"
             },
             {
-                "season": "2",
-                "episode": "9",
+                "season": 2,
+                "episode": 9,
                 "title_ep": "4 Days Out"
             },
             {
-                "season": "2",
-                "episode": "11",
+                "season": 2,
+                "episode": 11,
                 "title_ep": "Mandala"
             },
             {
-                "season": "2",
-                "episode": "12",
+                "season": 2,
+                "episode": 12,
                 "title_ep": "Phoenix"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             },
             {
-                "season": "3",
-                "episode": "3",
+                "season": 3,
+                "episode": 3,
                 "title_ep": "IFT"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "3",
-                "episode": "5",
+                "season": 3,
+                "episode": 5,
                 "title_ep": "Más"
             },
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             },
             {
-                "season": "3",
-                "episode": "7",
+                "season": 3,
+                "episode": 7,
                 "title_ep": "One Minute"
             },
             {
-                "season": "3",
-                "episode": "9",
+                "season": 3,
+                "episode": 9,
                 "title_ep": "Kafkaesque"
             },
             {
-                "season": "3",
-                "episode": "11",
+                "season": 3,
+                "episode": 11,
                 "title_ep": "Abiquiu"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "3",
-                "episode": "13",
+                "season": 3,
+                "episode": 13,
                 "title_ep": "Full Measure"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "3",
+                "season": 4,
+                "episode": 3,
                 "title_ep": "Open House"
             },
             {
-                "season": "4",
-                "episode": "4",
+                "season": 4,
+                "episode": 4,
                 "title_ep": "Bullet Points"
             },
             {
-                "season": "4",
-                "episode": "7",
+                "season": 4,
+                "episode": 7,
                 "title_ep": "Problem Dog"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "10",
+                "season": 4,
+                "episode": 10,
                 "title_ep": "Salud"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "4",
-                "episode": "13",
+                "season": 4,
+                "episode": 13,
                 "title_ep": "Face Off"
             },
             {
-                "season": "5",
-                "episode": "1",
+                "season": 5,
+                "episode": 1,
                 "title_ep": "Live Free of Die"
             },
             {
-                "season": "5",
-                "episode": "2",
+                "season": 5,
+                "episode": 2,
                 "title_ep": "Madrigal"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "6",
+                "season": 5,
+                "episode": 6,
                 "title_ep": "Buyout"
             },
             {
-                "season": "5",
-                "episode": "7",
+                "season": 5,
+                "episode": 7,
                 "title_ep": "Say My Name"
             },
             {
-                "season": "5",
-                "episode": "8",
+                "season": 5,
+                "episode": 8,
                 "title_ep": "Gliding Over All"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "10",
+                "season": 5,
+                "episode": 10,
                 "title_ep": "Buried"
             },
             {
-                "season": "5",
-                "episode": "11",
+                "season": 5,
+                "episode": 11,
                 "title_ep": "Confessions"
             },
             {
-                "season": "5",
-                "episode": "12",
+                "season": 5,
+                "episode": 12,
                 "title_ep": "Rabid Dog"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             }
         ]
@@ -2086,128 +2086,128 @@
         },
         "appearances": [
             {
-                "season": "2",
-                "episode": "11",
+                "season": 2,
+                "episode": 11,
                 "title_ep": "Mandala"
             },
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             },
             {
-                "season": "3",
-                "episode": "1",
+                "season": 3,
+                "episode": 1,
                 "title_ep": "No Más"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             },
             {
-                "season": "3",
-                "episode": "3",
+                "season": 3,
+                "episode": 3,
                 "title_ep": "IFT"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "3",
-                "episode": "5",
+                "season": 3,
+                "episode": 5,
                 "title_ep": "Más"
             },
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             },
             {
-                "season": "3",
-                "episode": "8",
+                "season": 3,
+                "episode": 8,
                 "title_ep": "I See You"
             },
             {
-                "season": "3",
-                "episode": "9",
+                "season": 3,
+                "episode": 9,
                 "title_ep": "Kafkaesque"
             },
             {
-                "season": "3",
-                "episode": "11",
+                "season": 3,
+                "episode": 11,
                 "title_ep": "Abiquiu"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "3",
-                "episode": "13",
+                "season": 3,
+                "episode": 13,
                 "title_ep": "Full Measure"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "4",
+                "season": 4,
+                "episode": 4,
                 "title_ep": "Bullet Points"
             },
             {
-                "season": "4",
-                "episode": "5",
+                "season": 4,
+                "episode": 5,
                 "title_ep": "Shotgun"
             },
             {
-                "season": "4",
-                "episode": "6",
+                "season": 4,
+                "episode": 6,
                 "title_ep": "Cornered"
             },
             {
-                "season": "4",
-                "episode": "7",
+                "season": 4,
+                "episode": 7,
                 "title_ep": "Problem Dog"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "9",
+                "season": 4,
+                "episode": 9,
                 "title_ep": "Bug"
             },
             {
-                "season": "4",
-                "episode": "10",
+                "season": 4,
+                "episode": 10,
                 "title_ep": "Salud"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "4",
-                "episode": "13",
+                "season": 4,
+                "episode": 13,
                 "title_ep": "Face Off"
             }
         ]
@@ -2223,38 +2223,38 @@
         },
         "appearances": [
             {
-                "season": "2",
-                "episode": "2",
+                "season": 2,
+                "episode": 2,
                 "title_ep": "Grilled"
             },
             {
-                "season": "2",
-                "episode": "3",
+                "season": 2,
+                "episode": 3,
                 "title_ep": "Bit by a Dead Bee"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             },
             {
-                "season": "3",
-                "episode": "3",
+                "season": 3,
+                "episode": 3,
                 "title_ep": "IFT"
             },
             {
-                "season": "3",
-                "episode": "7",
+                "season": 3,
+                "episode": 7,
                 "title_ep": "One Minute"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             }
         ]
@@ -2270,18 +2270,18 @@
         },
         "appearances": [
             {
-                "season": "1",
-                "episode": "1",
+                "season": 1,
+                "episode": 1,
                 "title_ep": "Pilot"
             },
             {
-                "season": "1",
-                "episode": "2",
+                "season": 1,
+                "episode": 2,
                 "title_ep": "Cat's in the Bag..."
             },
             {
-                "season": "1",
-                "episode": "3",
+                "season": 1,
+                "episode": 3,
                 "title_ep": "...And the Bag's in the River"
             }
         ]
@@ -2297,23 +2297,23 @@
         },
         "appearances": [
             {
-                "season": "1",
-                "episode": "6",
+                "season": 1,
+                "episode": 6,
                 "title_ep": "Crazy Handful of Nothin"
             },
             {
-                "season": " 1",
-                "episode": "7",
+                "season": 1,
+                "episode": 7,
                 "title_ep": "A No-Rough-Stuff-Type Deal"
             },
             {
-                "season": "2",
-                "episode": "1",
+                "season": 2,
+                "episode": 1,
                 "title_ep": "Seven-Thirty-Seven"
             },
             {
-                "season": "2",
-                "episode": "2",
+                "season": 2,
+                "episode": 2,
                 "title_ep": "Grilled"
             }
         ]
@@ -2326,18 +2326,18 @@
         "death": {},
         "appearances": [
             {
-                "season": "3",
-                "episode": "1",
+                "season": 3,
+                "episode": 1,
                 "title_ep": "No Más"
             },
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             },
             {
-                "season": "3",
-                "episode": "7",
+                "season": 3,
+                "episode": 7,
                 "title_ep": "One Minute"
             }
         ]
@@ -2353,48 +2353,48 @@
         },
         "appearances": [
             {
-                "season": "5",
-                "episode": "2",
+                "season": 5,
+                "episode": 2,
                 "title_ep": "Madrigal"
             },
             {
-                "season": "5",
-                "episode": "4",
+                "season": 5,
+                "episode": 4,
                 "title_ep": "Fifty-One"
             },
             {
-                "season": "5",
-                "episode": "5",
+                "season": 5,
+                "episode": 5,
                 "title_ep": "Dead Freight"
             },
             {
-                "season": "5",
-                "episode": "8",
+                "season": 5,
+                "episode": 8,
                 "title_ep": "Gliding Over All"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "10",
+                "season": 5,
+                "episode": 10,
                 "title_ep": "Buried"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -2410,58 +2410,58 @@
         },
         "appearances": [
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "5",
+                "season": 5,
+                "episode": 5,
                 "title_ep": "Dead Freight"
             },
             {
-                "season": "5",
-                "episode": "6",
+                "season": 5,
+                "episode": 6,
                 "title_ep": "Buyout"
             },
             {
-                "season": "5",
-                "episode": "7",
+                "season": 5,
+                "episode": 7,
                 "title_ep": "Say My Name"
             },
             {
-                "season": "5",
-                "episode": "8",
+                "season": 5,
+                "episode": 8,
                 "title_ep": "Gliding Over All"
             },
             {
-                "season": "5",
-                "episode": "10",
+                "season": 5,
+                "episode": 10,
                 "title_ep": "Buried"
             },
             {
-                "season": "5",
-                "episode": "11",
+                "season": 5,
+                "episode": 11,
                 "title_ep": "Confessions"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "14",
+                "season": 5,
+                "episode": 14,
                 "title_ep": "Ozymandias"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -2477,48 +2477,48 @@
         },
         "appearances": [
             {
-                "season": "2",
-                "episode": "5",
+                "season": 2,
+                "episode": 5,
                 "title_ep": "Breakage"
             },
             {
-                "season": "2",
-                "episode": "7",
+                "season": 2,
+                "episode": 7,
                 "title_ep": "Negro y Azul"
             },
             {
-                "season": "2",
-                "episode": "8",
+                "season": 2,
+                "episode": 8,
                 "title_ep": "Better Call Saul"
             },
             {
-                "season": "2",
-                "episode": "9",
+                "season": 2,
+                "episode": 9,
                 "title_ep": "4 Days Out"
             },
             {
-                "season": "2",
-                "episode": "10",
+                "season": 2,
+                "episode": 10,
                 "title_ep": "Over"
             },
             {
-                "season": "2",
-                "episode": "11",
+                "season": 2,
+                "episode": 11,
                 "title_ep": "Mandala"
             },
             {
-                "season": "2",
-                "episode": "12",
+                "season": 2,
+                "episode": 12,
                 "title_ep": "Phoenix"
             },
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             },
             {
-                "season": "3",
-                "episode": "11",
+                "season": 3,
+                "episode": 11,
                 "title_ep": "Abiquiu"
             }
         ]
@@ -2531,13 +2531,13 @@
         "death": {},
         "appearances": [
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -2550,33 +2550,33 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "5",
+                "season": 1,
+                "episode": 5,
                 "title_ep": "Gray Matter"
             },
             {
-                "season": "2",
-                "episode": "5",
+                "season": 2,
+                "episode": 5,
                 "title_ep": "Breakage"
             },
             {
-                "season": "2",
-                "episode": "8",
+                "season": 2,
+                "episode": 8,
                 "title_ep": "Better Call Saul"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -2589,58 +2589,58 @@
         "death": {},
         "appearances": [
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "3",
+                "season": 4,
+                "episode": 3,
                 "title_ep": "Open House"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "10",
+                "season": 5,
+                "episode": 10,
                 "title_ep": "Buried"
             },
             {
-                "season": "5",
-                "episode": "11",
+                "season": 5,
+                "episode": 11,
                 "title_ep": "Confessions"
             },
             {
-                "season": "5",
-                "episode": "12",
+                "season": 5,
+                "episode": 12,
                 "title_ep": "Rabid Dog"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             }
         ]
@@ -2656,8 +2656,8 @@
         },
         "appearances": [
             {
-                "season": "5",
-                "episode": "14",
+                "season": 5,
+                "episode": 14,
                 "title_ep": "Ozymandias"
             }
         ]
@@ -2670,63 +2670,63 @@
         "death": {},
         "appearances": [
             {
-                "season": "2",
-                "episode": "7",
+                "season": 2,
+                "episode": 7,
                 "title_ep": "Negro y Azul"
             },
             {
-                "season": "2",
-                "episode": "10",
+                "season": 2,
+                "episode": 10,
                 "title_ep": "Over"
             },
             {
-                "season": "2",
-                "episode": "11",
+                "season": 2,
+                "episode": 11,
                 "title_ep": "Mandala"
             },
             {
-                "season": "2",
-                "episode": "12",
+                "season": 2,
+                "episode": 12,
                 "title_ep": "Phoenix"
             },
             {
-                "season": "3",
-                "episode": "3",
+                "season": 3,
+                "episode": 3,
                 "title_ep": "IFT"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "3",
-                "episode": "5",
+                "season": 3,
+                "episode": 5,
                 "title_ep": "Más"
             },
             {
-                "season": "3",
-                "episode": "9",
+                "season": 3,
+                "episode": 9,
                 "title_ep": "Kafkaesque"
             },
             {
-                "season": "4",
-                "episode": "9",
+                "season": 4,
+                "episode": 9,
                 "title_ep": "Bug"
             },
             {
-                "season": "4",
-                "episode": "10",
+                "season": 4,
+                "episode": 10,
                 "title_ep": "Salud"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "5",
-                "episode": "1",
+                "season": 5,
+                "episode": 1,
                 "title_ep": "Live Free of Die"
             }
         ]
@@ -2742,33 +2742,33 @@
         },
         "appearances": [
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             },
             {
-                "season": "3",
-                "episode": "7",
+                "season": 3,
+                "episode": 7,
                 "title_ep": "One Minute"
             },
             {
-                "season": "3",
-                "episode": "13",
+                "season": 3,
+                "episode": 13,
                 "title_ep": "Full Measure"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "4",
+                "season": 4,
+                "episode": 4,
                 "title_ep": "Bullet Points"
             },
             {
-                "season": "4",
-                "episode": "7",
+                "season": 4,
+                "episode": 7,
                 "title_ep": "Problem Dog"
             }
         ]
@@ -2784,43 +2784,43 @@
         },
         "appearances": [
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             }
         ]
@@ -2833,43 +2833,43 @@
         "death": {},
         "appearances": [
             {
-                "season": "3",
-                "episode": "11",
+                "season": 3,
+                "episode": 11,
                 "title_ep": "Abiquiu"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             }
         ]
@@ -2882,48 +2882,48 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "1",
+                "season": 1,
+                "episode": 1,
                 "title_ep": "Pilot"
             },
             {
-                "season": "1",
-                "episode": "3",
+                "season": 1,
+                "episode": 3,
                 "title_ep": "...And the Bag's in the River"
             },
             {
-                "season": "1",
-                "episode": "6",
+                "season": 1,
+                "episode": 6,
                 "title_ep": "Crazy Handful of Nothin"
             },
             {
-                "season": " 1",
-                "episode": "7",
+                "season": 1,
+                "episode": 7,
                 "title_ep": "A No-Rough-Stuff-Type Deal"
             },
             {
-                "season": "2",
-                "episode": "6",
+                "season": 2,
+                "episode": 6,
                 "title_ep": "Peekaboo"
             },
             {
-                "season": "2",
-                "episode": "10",
+                "season": 2,
+                "episode": 10,
                 "title_ep": "Over"
             },
             {
-                "season": "3",
-                "episode": "1",
+                "season": 3,
+                "episode": 1,
                 "title_ep": "No Más"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             }
         ]
@@ -2936,28 +2936,28 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "3",
+                "season": 1,
+                "episode": 3,
                 "title_ep": "...And the Bag's in the River"
             },
             {
-                "season": "1",
-                "episode": "5",
+                "season": 1,
+                "episode": 5,
                 "title_ep": "Gray Matter"
             },
             {
-                "season": "2",
-                "episode": "6",
+                "season": 2,
+                "episode": 6,
                 "title_ep": "Peekaboo"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -2970,18 +2970,18 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "5",
+                "season": 1,
+                "episode": 5,
                 "title_ep": "Gray Matter"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -2997,18 +2997,18 @@
         },
         "appearances": [
             {
-                "season": "1",
-                "episode": "6",
+                "season": 1,
+                "episode": 6,
                 "title_ep": "Crazy Handful of Nothin"
             },
             {
-                "season": " 1",
-                "episode": "7",
+                "season": 1,
+                "episode": 7,
                 "title_ep": "A No-Rough-Stuff-Type Deal"
             },
             {
-                "season": "2",
-                "episode": "1",
+                "season": 2,
+                "episode": 1,
                 "title_ep": "Seven-Thirty-Seven"
             }
         ]
@@ -3024,8 +3024,8 @@
         },
         "appearances": [
             {
-                "season": "2",
-                "episode": "11",
+                "season": 2,
+                "episode": 11,
                 "title_ep": "Mandala"
             }
         ]
@@ -3038,23 +3038,23 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "4",
+                "season": 1,
+                "episode": 4,
                 "title_ep": "Cancer Man"
             },
             {
-                "season": "2",
-                "episode": "2",
+                "season": 2,
+                "episode": 2,
                 "title_ep": "Grilled"
             },
             {
-                "season": "2",
-                "episode": "4",
+                "season": 2,
+                "episode": 4,
                 "title_ep": "Down"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             }
         ]
@@ -3067,18 +3067,18 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "4",
+                "season": 1,
+                "episode": 4,
                 "title_ep": "Cancer Man"
             },
             {
-                "season": "2",
-                "episode": "4",
+                "season": 2,
+                "episode": 4,
                 "title_ep": "Down"
             },
             {
-                "season": "3",
-                "episode": "1",
+                "season": 3,
+                "episode": 1,
                 "title_ep": "No Más"
             }
         ]
@@ -3094,18 +3094,18 @@
         },
         "appearances": [
             {
-                "season": "1",
-                "episode": "6",
+                "season": 1,
+                "episode": 6,
                 "title_ep": "Crazy Handful of Nothin"
             },
             {
-                "season": " 1",
-                "episode": "7",
+                "season": 1,
+                "episode": 7,
                 "title_ep": "A No-Rough-Stuff-Type Deal"
             },
             {
-                "season": "2",
-                "episode": "1",
+                "season": 2,
+                "episode": 1,
                 "title_ep": "Seven-Thirty-Seven"
             }
         ]
@@ -3121,13 +3121,13 @@
         },
         "appearances": [
             {
-                "season": "1",
-                "episode": "1",
+                "season": 1,
+                "episode": 1,
                 "title_ep": "Pilot"
             },
             {
-                "season": "1",
-                "episode": "2",
+                "season": 1,
+                "episode": 2,
                 "title_ep": "Cat's in the Bag..."
             }
         ]
@@ -3140,38 +3140,38 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "4",
+                "season": 1,
+                "episode": 4,
                 "title_ep": "Cancer Man"
             },
             {
-                "season": " 1",
-                "episode": "7",
+                "season": 1,
+                "episode": 7,
                 "title_ep": "A No-Rough-Stuff-Type Deal"
             },
             {
-                "season": "2",
-                "episode": "3",
+                "season": 2,
+                "episode": 3,
                 "title_ep": "Bit by a Dead Bee"
             },
             {
-                "season": "2",
-                "episode": "5",
+                "season": 2,
+                "episode": 5,
                 "title_ep": "Breakage"
             },
             {
-                "season": "2",
-                "episode": "9",
+                "season": 2,
+                "episode": 9,
                 "title_ep": "4 Days Out"
             },
             {
-                "season": "2",
-                "episode": "11",
+                "season": 2,
+                "episode": 11,
                 "title_ep": "Mandala"
             },
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             }
         ]
@@ -3184,18 +3184,18 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "3",
+                "season": 1,
+                "episode": 3,
                 "title_ep": "...And the Bag's in the River"
             },
             {
-                "season": "2",
-                "episode": "3",
+                "season": 2,
+                "episode": 3,
                 "title_ep": "Bit by a Dead Bee"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             }
         ]
@@ -3208,18 +3208,18 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "1",
+                "season": 1,
+                "episode": 1,
                 "title_ep": "Pilot"
             },
             {
-                "season": "4",
-                "episode": "3",
+                "season": 4,
+                "episode": 3,
                 "title_ep": "Open House"
             },
             {
-                "season": "4",
-                "episode": "6",
+                "season": 4,
+                "episode": 6,
                 "title_ep": "Cornered"
             }
         ]
@@ -3232,8 +3232,8 @@
         "death": {},
         "appearances": [
             {
-                "season": "1",
-                "episode": "4",
+                "season": 1,
+                "episode": 4,
                 "title_ep": "Cancer Man"
             }
         ]
@@ -3246,163 +3246,163 @@
         "death": {},
         "appearances": [
             {
-                "season": "2",
-                "episode": "12",
+                "season": 2,
+                "episode": 12,
                 "title_ep": "Phoenix"
             },
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             },
             {
-                "season": "3",
-                "episode": "1",
+                "season": 3,
+                "episode": 1,
                 "title_ep": "No Más"
             },
             {
-                "season": "3",
-                "episode": "2",
+                "season": 3,
+                "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             },
             {
-                "season": "3",
-                "episode": "3",
+                "season": 3,
+                "episode": 3,
                 "title_ep": "IFT"
             },
             {
-                "season": "3",
-                "episode": "5",
+                "season": 3,
+                "episode": 5,
                 "title_ep": "Más"
             },
             {
-                "season": "3",
-                "episode": "11",
+                "season": 3,
+                "episode": 11,
                 "title_ep": "Abiquiu"
             },
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "3",
-                "episode": "13",
+                "season": 3,
+                "episode": 13,
                 "title_ep": "Full Measure"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "2",
+                "season": 4,
+                "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
             },
             {
-                "season": "4",
-                "episode": "3",
+                "season": 4,
+                "episode": 3,
                 "title_ep": "Open House"
             },
             {
-                "season": "4",
-                "episode": "4",
+                "season": 4,
+                "episode": 4,
                 "title_ep": "Bullet Points"
             },
             {
-                "season": "4",
-                "episode": "5",
+                "season": 4,
+                "episode": 5,
                 "title_ep": "Shotgun"
             },
             {
-                "season": "4",
-                "episode": "6",
+                "season": 4,
+                "episode": 6,
                 "title_ep": "Cornered"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "4",
-                "episode": "13",
+                "season": 4,
+                "episode": 13,
                 "title_ep": "Face Off"
             },
             {
-                "season": "5",
-                "episode": "1",
+                "season": 5,
+                "episode": 1,
                 "title_ep": "Live Free of Die"
             },
             {
-                "season": "5",
-                "episode": "2",
+                "season": 5,
+                "episode": 2,
                 "title_ep": "Madrigal"
             },
             {
-                "season": "5",
-                "episode": "3",
+                "season": 5,
+                "episode": 3,
                 "title_ep": "Hazard Pay"
             },
             {
-                "season": "5",
-                "episode": "4",
+                "season": 5,
+                "episode": 4,
                 "title_ep": "Fifty-One"
             },
             {
-                "season": "5",
-                "episode": "5",
+                "season": 5,
+                "episode": 5,
                 "title_ep": "Dead Freight"
             },
             {
-                "season": "5",
-                "episode": "6",
+                "season": 5,
+                "episode": 6,
                 "title_ep": "Buyout"
             },
             {
-                "season": "5",
-                "episode": "8",
+                "season": 5,
+                "episode": 8,
                 "title_ep": "Gliding Over All"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "10",
+                "season": 5,
+                "episode": 10,
                 "title_ep": "Buried"
             },
             {
-                "season": "5",
-                "episode": "12",
+                "season": 5,
+                "episode": 12,
                 "title_ep": "Rabid Dog"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "14",
+                "season": 5,
+                "episode": 14,
                 "title_ep": "Ozymandias"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
@@ -3415,58 +3415,58 @@
         "death": {},
         "appearances": [
             {
-                "season": "2",
-                "episode": "3",
+                "season": 2,
+                "episode": 3,
                 "title_ep": "Bit by a Dead Bee"
             },
             {
-                "season": "2",
-                "episode": "5",
+                "season": 2,
+                "episode": 5,
                 "title_ep": "Breakage"
             },
             {
-                "season": "2",
-                "episode": "6",
+                "season": 2,
+                "episode": 6,
                 "title_ep": "Peekaboo"
             },
             {
-                "season": "3",
-                "episode": "4",
+                "season": 3,
+                "episode": 4,
                 "title_ep": "Green Light"
             },
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             },
             {
-                "season": "3",
-                "episode": "7",
+                "season": 3,
+                "episode": 7,
                 "title_ep": "One Minute"
             },
             {
-                "season": "3",
-                "episode": "8",
+                "season": 3,
+                "episode": 8,
                 "title_ep": "I See You"
             },
             {
-                "season": "4",
-                "episode": "7",
+                "season": 4,
+                "episode": 7,
                 "title_ep": "Problem Dog"
             },
             {
-                "season": "4",
-                "episode": "8",
+                "season": 4,
+                "episode": 8,
                 "title_ep": "Hermanos"
             },
             {
-                "season": "4",
-                "episode": "13",
+                "season": 4,
+                "episode": 13,
                 "title_ep": "Face Off"
             },
             {
-                "season": "5",
-                "episode": "1",
+                "season": 5,
+                "episode": 1,
                 "title_ep": "Live Free of Die"
             }
         ]
@@ -3479,18 +3479,18 @@
         "death": {},
         "appearances": [
             {
-                "season": "2",
-                "episode": "11",
+                "season": 2,
+                "episode": 11,
                 "title_ep": "Mandala"
             },
             {
-                "season": "2",
-                "episode": "12",
+                "season": 2,
+                "episode": 12,
                 "title_ep": "Phoenix"
             },
             {
-                "season": "2",
-                "episode": "13",
+                "season": 2,
+                "episode": 13,
                 "title_ep": "ABQ"
             }
         ]
@@ -3503,23 +3503,23 @@
         "death": {},
         "appearances": [
             {
-                "season": "2",
-                "episode": "3",
+                "season": 2,
+                "episode": 3,
                 "title_ep": "Bit by a Dead Bee"
             },
             {
-                "season": "2",
-                "episode": "4",
+                "season": 2,
+                "episode": 4,
                 "title_ep": "Down"
             },
             {
-                "season": "2",
-                "episode": "5",
+                "season": 2,
+                "episode": 5,
                 "title_ep": "Breakage"
             },
             {
-                "season": "3",
-                "episode": "6",
+                "season": 3,
+                "episode": 6,
                 "title_ep": "Sunset"
             }
         ]
@@ -3535,18 +3535,18 @@
         },
         "appearances": [
             {
-                "season": "3",
-                "episode": "12",
+                "season": 3,
+                "episode": 12,
                 "title_ep": "Half measures"
             },
             {
-                "season": "3",
-                "episode": "13",
+                "season": 3,
+                "episode": 13,
                 "title_ep": "Full Measure"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             }
         ]
@@ -3559,48 +3559,48 @@
         "death": {},
         "appearances": [
             {
-                "season": "2",
-                "episode": "8",
+                "season": 2,
+                "episode": 8,
                 "title_ep": "Better Call Saul"
             },
             {
-                "season": "3",
-                "episode": "9",
+                "season": 3,
+                "episode": 9,
                 "title_ep": "Kafkaesque"
             },
             {
-                "season": "4",
-                "episode": "1",
+                "season": 4,
+                "episode": 1,
                 "title_ep": "Box Cutter"
             },
             {
-                "season": "4",
-                "episode": "10",
+                "season": 4,
+                "episode": 10,
                 "title_ep": "Salud"
             },
             {
-                "season": "4",
-                "episode": "11",
+                "season": 4,
+                "episode": 11,
                 "title_ep": "Crawl Space"
             },
             {
-                "season": "4",
-                "episode": "12",
+                "season": 4,
+                "episode": 12,
                 "title_ep": "End Times"
             },
             {
-                "season": "4",
-                "episode": "13",
+                "season": 4,
+                "episode": 13,
                 "title_ep": "Face Off"
             },
             {
-                "season": "5",
-                "episode": "9",
+                "season": 5,
+                "episode": 9,
                 "title_ep": "Blood Money"
             },
             {
-                "season": "5",
-                "episode": "11",
+                "season": 5,
+                "episode": 11,
                 "title_ep": "Confessions"
             }
         ]
@@ -3616,8 +3616,8 @@
         },
         "appearances": [
             {
-                "season": "2",
-                "episode": "7",
+                "season": 2,
+                "episode": 7,
                 "title_ep": "Negro y Azul"
             }
         ]
@@ -3633,33 +3633,33 @@
         },
         "appearances": [
             {
-                "season": "5",
-                "episode": "10",
+                "season": 5,
+                "episode": 10,
                 "title_ep": "Buried"
             },
             {
-                "season": "5",
-                "episode": "11",
+                "season": 5,
+                "episode": 11,
                 "title_ep": "Confessions"
             },
             {
-                "season": "5",
-                "episode": "13",
+                "season": 5,
+                "episode": 13,
                 "title_ep": "To'hajilee"
             },
             {
-                "season": "5",
-                "episode": "14",
+                "season": 5,
+                "episode": 14,
                 "title_ep": "Ozymandias"
             },
             {
-                "season": "5",
-                "episode": "15",
+                "season": 5,
+                "episode": 15,
                 "title_ep": "Granite State"
             },
             {
-                "season": "5",
-                "episode": "16",
+                "season": 5,
+                "episode": 16,
                 "title_ep": "Felina"
             }
         ]
