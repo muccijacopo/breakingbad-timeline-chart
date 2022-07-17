@@ -2,7 +2,7 @@
     <div class="chart">
         <svg v-if="isReady">
             <CharacterLine v-for="(character, idx) in characters" :character="character"
-                :positions="positionsByCharacter[character.id]" @on-character-hover="toggleTooltip($event)" />
+                :positions="positionsByCharacter[character.id]" @on-character-hover="updateTooltip($event)" />
         </svg>
         <div :style="{ height: characters.length * 30 + 'px' }"></div>
         <div v-for="(episode, idx) in episodes" class="episode-card" :ref="(el) => (episodesRefs[idx] = el)" :style="{
@@ -118,10 +118,11 @@ function calculatePositionsByCharacter(
     return r;
 }
 
-function toggleTooltip(e: CharacterLineInteraction) {
+function updateTooltip(e: CharacterLineInteraction) {
+    console.log(e)
     tooltip.x = e.x;
     tooltip.y = e.y
-    tooltip.visible = !tooltip.visible;
+    tooltip.visible = !e.leave;
     const character = (props.characters as Character[]).find(c => c.id == e.characterId);
     if (character) tooltip.data = character;
 
