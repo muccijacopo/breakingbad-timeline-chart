@@ -1,8 +1,8 @@
 <template>
     <div class="chart">
         <svg v-if="isReady">
-            <CharacterLine v-for="(character, idx) in characters" :name="character.name"
-                :positions="positionsByCharacter[character.id]" />
+            <CharacterLine v-for="(character, idx) in characters" :character="character"
+                :positions="positionsByCharacter[character.id]" @on-character-hover="toggleTooltip($event)" />
         </svg>
         <div :style="{ height: characters.length * 30 + 'px' }"></div>
         <div v-for="(episode, idx) in episodes" class="episode-card" :ref="(el) => (episodesRefs[idx] = el)" :style="{
@@ -10,20 +10,22 @@
             left: positionsByEpisode[idx].x + 'px',
             transform: 'translateY(-50%)',
             height: episodeAreaHeight + 'px',
-            width: episodeCardWidth + 'px'
+            width: episodeCardWidth + 'px',
         }">
             {{ episode.season }} / {{ episode.episode }}
         </div>
+        <Tooltip :visible="tooltip.visible" :position="{ x: tooltip.x, y: tooltip.y }" :data="tooltip.data" />
     </div>
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { onMounted, reactive, ref } from "vue";
 import type { Character } from "@/models/Character";
 import type { Episode } from "@/models/Episode";
 import { getNumberOfEpisodesBySeason, isBeforeThan } from "@/utils/utils";
-import type { Point } from '@/utils/utils';
-import CharacterLine from "./CharacterLine.vue";
+import type { Point } from "@/utils/utils";
+import CharacterLine, { type CharacterLineInteraction } from "./CharacterLine.vue";
+import Tooltip from "@/components/Tooltip.vue";
 
 const props = defineProps(["episodes", "characters"]);
 
@@ -42,27 +44,31 @@ function getXPositionByEpisode(episode: number, season: number) {
         }
     totalEpisodes += episode;
     // const x = (episodeAreaWidth * totalEpisodes) - ((episodeAreaWidth - episodeCardWidth) / 2);
-    const x = (episodeAreaWidth * totalEpisodes);
+    const x = episodeAreaWidth * totalEpisodes;
     return x;
 }
 
 function getTopPositionOfEpisodeArea() {
-    const rect = (episodesRefs.value?.[5] as HTMLElement)?.getBoundingClientRect();
+    const rect = (
+        episodesRefs.value?.[5] as HTMLElement
+    )?.getBoundingClientRect();
     if (!rect) return 0;
     return rect.top;
 }
 
-function calculatePositionsByEpisode(episodes: Episode[] = props.episodes): Point[] {
+function calculatePositionsByEpisode(
+    episodes: Episode[] = props.episodes
+): Point[] {
     const r = episodes.map((_, idx) => {
-        if (idx == 0) return ({ x: extraLeftArea + episodeHalfArea, y: 50 });
-        else return {
-            x: extraLeftArea + episodeAreaWidth * idx,
-            y: 50
-        }
-    })
+        if (idx == 0) return { x: extraLeftArea + episodeHalfArea, y: 50 };
+        else
+            return {
+                x: extraLeftArea + episodeAreaWidth * idx,
+                y: 50,
+            };
+    });
     return r;
 }
-
 
 function calculatePositionsByCharacter(
     characters: Character[] = props.characters,
@@ -74,7 +80,8 @@ function calculatePositionsByCharacter(
     characters.forEach((character, idx) => {
         // Calculate default Y position
         let defaultYPosition = idx * 90;
-        if (defaultYPosition > top && defaultYPosition < top + episodeAreaHeight) defaultYPosition = defaultYPosition + episodeAreaHeight;
+        if (defaultYPosition > top && defaultYPosition < top + episodeAreaHeight)
+            defaultYPosition = defaultYPosition + episodeAreaHeight;
 
         const firstAppearance = character.appearances[0];
         if (!r[character.id]) {
@@ -104,23 +111,38 @@ function calculatePositionsByCharacter(
             );
             r[character.id].push({
                 y: app ? top + 20 * idx : defaultYPosition,
-                x: getXPositionByEpisode(+ep.episode, +ep.season)
-            })
+                x: getXPositionByEpisode(+ep.episode, +ep.season),
+            });
         }
     });
     return r;
 }
 
+function toggleTooltip(e: CharacterLineInteraction) {
+    tooltip.x = e.x;
+    tooltip.y = e.y
+    tooltip.visible = !tooltip.visible;
+    const character = (props.characters as Character[]).find(c => c.id == e.characterId);
+    if (character) tooltip.data = character;
+
+}
+
+/** State */
 const episodesRefs = ref<any>([]);
 const positionsByCharacter = ref<any>({});
 const positionsByEpisode = ref<Point[]>(calculatePositionsByEpisode());
 const isReady = ref(false);
+const tooltip = reactive({
+    visible: false,
+    x: 0,
+    y: 0,
+    data: props.characters[0]
+});
 
 onMounted(() => {
     positionsByCharacter.value = calculatePositionsByCharacter();
     isReady.value = true;
-})
-
+});
 </script>
 
 <style scoped>
