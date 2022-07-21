@@ -12,7 +12,7 @@
             height: episodeAreaHeight + 'px',
             width: episodeCardWidth + 'px',
         }">
-            {{ episode.season }} / {{ episode.episode }}
+            {{ episode.season }} / {{ episode.episode }} ({{ episode.title }})
         </div>
         <Tooltip :visible="tooltip.visible" :position="{ x: tooltip.x, y: tooltip.y }" :data="tooltip.data" />
     </div>
@@ -23,28 +23,30 @@ import { onMounted, reactive, ref } from "vue";
 import type { Character } from "@/models/Character";
 import type { Episode } from "@/models/Episode";
 import { getNumberOfEpisodesBySeason, isBeforeThan } from "@/utils/utils";
-import type { Point } from "@/utils/utils";
+import { getVariables } from '@/utils/variables';
+import type { Point } from "@/models/Coordinates";
 import CharacterLine, { type CharacterLineInteraction } from "./CharacterLine.vue";
 import Tooltip from "@/components/Tooltip.vue";
 
 const props = defineProps(["episodes", "characters"]);
 
-const extraLeftArea = 300;
-const episodeAreaWidth = 300;
-const episodeAreaHeight = 300;
-const episodeCardWidth = 100;
-const episodeHalfArea = (episodeCardWidth - episodeCardWidth) / 2;
+const { characterLineHeight,
+    marginBetweenCharacterLines,
+    extraLeftArea,
+    episodeAreaWidth,
+    episodeAreaHeight,
+    episodeCardWidth,
+    episodeHalfArea } = getVariables(props.characters);
 
 function getXPositionByEpisode(episode: number, season: number) {
-    episode -= 1;
     let totalEpisodes = 0;
     if (season > 1)
         for (const s of Array.from(Array(season)).keys()) {
             totalEpisodes += getNumberOfEpisodesBySeason(props.episodes, s);
         }
     totalEpisodes += episode;
-    // const x = (episodeAreaWidth * totalEpisodes) - ((episodeAreaWidth - episodeCardWidth) / 2);
-    const x = episodeAreaWidth * totalEpisodes;
+    const x = (episodeAreaWidth * totalEpisodes);
+    if (episode == 1 && season == 1) return x - extraLeftArea;
     return x;
 }
 
@@ -56,21 +58,21 @@ function getTopPositionOfEpisodeArea() {
     return rect.top;
 }
 
-function calculatePositionsByEpisode(
+function calculateEpisodeCardsCoordinates(
     episodes: Episode[] = props.episodes
 ): Point[] {
     const r = episodes.map((_, idx) => {
-        if (idx == 0) return { x: extraLeftArea + episodeHalfArea, y: 50 };
+        if (idx == 0) return { x: extraLeftArea, y: 50 };
         else
             return {
-                x: extraLeftArea + episodeAreaWidth * idx,
+                x: extraLeftArea + (episodeAreaWidth * idx),
                 y: 50,
             };
     });
     return r;
 }
 
-function calculatePositionsByCharacter(
+function calculateCharactersCoordinates(
     characters: Character[] = props.characters,
     episodes: Episode[] = props.episodes
 ) {
@@ -103,8 +105,7 @@ function calculatePositionsByCharacter(
                 },
             ];
         }
-
-        for (const [epIdx, ep] of episodes.entries()) {
+        for (const ep of episodes) {
             if (isBeforeThan(ep, firstAppearance as any)) continue;
             const app = character.appearances.find(
                 (e) => +e.episode == +ep.episode && +e.season == +ep.season
@@ -131,7 +132,7 @@ function updateTooltip(e: CharacterLineInteraction) {
 /** State */
 const episodesRefs = ref<any>([]);
 const positionsByCharacter = ref<any>({});
-const positionsByEpisode = ref<Point[]>(calculatePositionsByEpisode());
+const positionsByEpisode = ref<Point[]>(calculateEpisodeCardsCoordinates());
 const isReady = ref(false);
 const tooltip = reactive({
     visible: false,
@@ -141,7 +142,7 @@ const tooltip = reactive({
 });
 
 onMounted(() => {
-    positionsByCharacter.value = calculatePositionsByCharacter();
+    positionsByCharacter.value = calculateCharactersCoordinates();
     isReady.value = true;
 });
 </script>

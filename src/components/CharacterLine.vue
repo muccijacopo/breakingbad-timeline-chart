@@ -12,6 +12,8 @@
 </template>
 
 <script setup lang="ts">
+import { getVariables } from '@/utils/variables';
+
 export interface CharacterLineInteraction {
     characterId: number;
     x: number;

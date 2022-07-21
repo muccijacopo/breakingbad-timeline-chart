@@ -1,9 +1,6 @@
 import type { Episode } from "@/models/Episode";
 
-export interface Point {
-  x: number | string;
-  y: number | string;
-}
+
 
 export function getNumberOfEpisodesBySeason(
   allEpisodes: Episode[],
