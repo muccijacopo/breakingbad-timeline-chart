@@ -47,6 +47,7 @@ function getXPositionByEpisode(episode: number, season: number) {
     totalEpisodes += episode;
     const x = (episodeAreaWidth * totalEpisodes);
     if (episode == 1 && season == 1) return x - extraLeftArea;
+ 
     return x;
 }
 
@@ -84,7 +85,7 @@ function calculateCharactersCoordinates(
         let defaultYPosition = idx * 90;
         if (defaultYPosition > top && defaultYPosition < top + episodeAreaHeight)
             defaultYPosition = defaultYPosition + episodeAreaHeight;
-
+        
         const firstAppearance = character.appearances[0];
         if (!r[character.id]) {
             r[character.id] = [
@@ -105,22 +106,35 @@ function calculateCharactersCoordinates(
                 },
             ];
         }
-        for (const ep of episodes) {
-            if (isBeforeThan(ep, firstAppearance as any)) continue;
-            const app = character.appearances.find(
-                (e) => +e.episode == +ep.episode && +e.season == +ep.season
-            );
-            r[character.id].push({
-                y: app ? top + 20 * idx : defaultYPosition,
-                x: getXPositionByEpisode(+ep.episode, +ep.season),
-            });
+        let deathSeason;
+        let deathEpisode;
+        deathSeason = character.death ?  deathSeason = character.death.season : deathSeason = null;
+        deathEpisode = character.death ?  deathEpisode = character.death.episode : deathEpisode = null;
+        for(const ep of episodes) {
+            if(Number(ep.episode) !== deathEpisode || Number(ep.season) !== deathSeason){
+              
+                if (isBeforeThan(ep, firstAppearance as any)) continue;
+                
+                const app = character.appearances.find(
+                    (e) => +e.episode == +ep.episode && +e.season == +ep.season
+                );
+                
+                r[character.id].push({
+                    y: app ? top + 20 * idx : defaultYPosition,
+                    x: getXPositionByEpisode(+ep.episode, +ep.season),
+                });
+            }else{
+                r[character.id][r[character.id].length-1].x = r[character.id][r[character.id].length-1].x + (episodeAreaWidth/2);
+                break;
+            }
+           
         }
     });
+  
     return r;
 }
 
 function updateTooltip(e: CharacterLineInteraction) {
-    console.log(e)
     tooltip.x = e.x;
     tooltip.y = e.y
     tooltip.visible = !e.leave;

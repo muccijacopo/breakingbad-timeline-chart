@@ -7,6 +7,7 @@
                 :stroke="randomColor" @mousemove="onMouseHover($event)" @mouseleave="onMouseLeave($event)">
             </line>
         </g>
+         
         <text :x="positions[0].x" :y="positions[0].y" text-anchor="middle">{{ character.name }}</text>
     </g>
 </template>
