@@ -5,12 +5,11 @@
                 :positions="positionsByCharacter[character.id]" @on-character-hover="updateTooltip($event)" />
         </svg>
         <div :style="{ height: characters.length * 30 + 'px' }"></div>
-        <div v-for="(episode, idx) in episodes" class="episode-card" :ref="(el) => (episodesRefs[idx] = el)" :style="{
-            top: positionsByEpisode[idx].y + 'vh',
+        <div v-for="(episode, idx) in episodes" class="episode-card" :style="{
+            top: positionsByEpisode[idx].y + 'px',
             left: positionsByEpisode[idx].x + 'px',
-            transform: 'translateY(-50%)',
             height: episodeAreaHeight + 'px',
-            width: episodeCardWidth + 'px',
+            width: episodeAreaWidth + 'px',
         }">
             {{ episode.season }} / {{ episode.episode }} ({{ episode.title }})
         </div>
@@ -22,52 +21,68 @@
 import { onMounted, reactive, ref } from "vue";
 import type { Character } from "@/models/Character";
 import type { Episode } from "@/models/Episode";
-import { getNumberOfEpisodesBySeason, isBeforeThan } from "@/utils/utils";
+import { isBeforeThan, getNumberOfEpisodesFromPilot } from "@/utils/utils";
 import { getVariables } from '@/utils/variables';
 import type { Point } from "@/models/Coordinates";
 import CharacterLine, { type CharacterLineInteraction } from "./CharacterLine.vue";
 import Tooltip from "@/components/Tooltip.vue";
 
+/** Props */
 const props = defineProps(["episodes", "characters"]);
-
+/** Constants */
 const { characterLineHeight,
     marginBetweenCharacterLines,
     extraLeftArea,
     episodeAreaWidth,
     episodeAreaHeight,
-    episodeCardWidth,
-    episodeHalfArea } = getVariables(props.characters);
+    marginBetweenEpisodes
+} = getVariables(props.characters);
+/** Reactive state */
+const positionsByCharacter = ref<any>({});
+const positionsByEpisode = ref<Point[]>(calculateEpisodeCardsCoordinates());
+const isReady = ref(false);
+const tooltip = reactive({
+    visible: false,
+    x: 0,
+    y: 0,
+    data: props.characters[0]
+});
 
+
+/** Functions */
 function getXPositionByEpisode(episode: number, season: number) {
-    let totalEpisodes = 0;
-    if (season > 1)
-        for (const s of Array.from(Array(season)).keys()) {
-            totalEpisodes += getNumberOfEpisodesBySeason(props.episodes, s);
-        }
-    totalEpisodes += episode;
-    const x = (episodeAreaWidth * totalEpisodes);
-    if (episode == 1 && season == 1) return x - extraLeftArea;
- 
+    const total = getNumberOfEpisodesFromPilot(episode, season, props.episodes);
+    const x = (positionsByEpisode.value[total - 1].x as number);
     return x;
 }
 
-function getTopPositionOfEpisodeArea() {
-    const rect = (
-        episodesRefs.value?.[5] as HTMLElement
-    )?.getBoundingClientRect();
-    if (!rect) return 0;
-    return rect.top;
+function getCharacterInitialXPosition(episode: number, season: number) {
+    const total = getNumberOfEpisodesFromPilot(episode, season, props.episodes);
+    const x = (positionsByEpisode.value[total - 1].x as number) - marginBetweenEpisodes;
+    return x;
+}
+
+function getCharacterDefaultY(idx: number, total: number, offset: number) {
+    if (idx < total / 2) return idx * (characterLineHeight + marginBetweenCharacterLines);
+    else return offset + (idx * (characterLineHeight + marginBetweenCharacterLines));
+}
+
+function getCharacterIntoEpisodeY(idx: number, offset: number) {
+    console.log(idx, offset)
+    return offset + (idx * (characterLineHeight + marginBetweenCharacterLines));
 }
 
 function calculateEpisodeCardsCoordinates(
-    episodes: Episode[] = props.episodes
+    episodes: Episode[] = props.episodes,
+    characters: Character[] = props.characters
 ): Point[] {
+    const y = (characters.length / 2) * (characterLineHeight + marginBetweenCharacterLines);
     const r = episodes.map((_, idx) => {
-        if (idx == 0) return { x: extraLeftArea, y: 50 };
+        if (idx == 0) return { x: extraLeftArea, y };
         else
             return {
-                x: extraLeftArea + (episodeAreaWidth * idx),
-                y: 50,
+                x: extraLeftArea + ((episodeAreaWidth + marginBetweenEpisodes) * idx),
+                y,
             };
     });
     return r;
@@ -79,18 +94,17 @@ function calculateCharactersCoordinates(
 ) {
     if (!characters || !episodes) return {};
     const r: { [key: number]: { x: number | string; y: number | string }[] } = {};
-    const top = getTopPositionOfEpisodeArea();
+    const episodeCardTopY = positionsByEpisode.value[0].y;
+    const episodeCardBottomY = episodeCardTopY + episodeAreaHeight;
     characters.forEach((character, idx) => {
         // Calculate default Y position
-        let defaultYPosition = idx * 90;
-        if (defaultYPosition > top && defaultYPosition < top + episodeAreaHeight)
-            defaultYPosition = defaultYPosition + episodeAreaHeight;
-        
+        const defaultYPosition = getCharacterDefaultY(idx, characters.length, episodeCardBottomY);
+
         const firstAppearance = character.appearances[0];
         if (!r[character.id]) {
             r[character.id] = [
                 {
-                    x: getXPositionByEpisode(
+                    x: getCharacterInitialXPosition(
                         +firstAppearance.episode,
                         +firstAppearance.season
                     ),
@@ -98,39 +112,39 @@ function calculateCharactersCoordinates(
                 },
                 {
                     x:
-                        getXPositionByEpisode(
+                        getCharacterInitialXPosition(
                             +firstAppearance.episode,
                             +firstAppearance.season
-                        ) + 60,
+                        ) + 150,
                     y: defaultYPosition,
                 },
             ];
         }
         let deathSeason;
         let deathEpisode;
-        deathSeason = character.death ?  deathSeason = character.death.season : deathSeason = null;
-        deathEpisode = character.death ?  deathEpisode = character.death.episode : deathEpisode = null;
-        for(const ep of episodes) {
-            if(Number(ep.episode) !== deathEpisode || Number(ep.season) !== deathSeason){
-              
+        deathSeason = character.death ? deathSeason = character.death.season : deathSeason = null;
+        deathEpisode = character.death ? deathEpisode = character.death.episode : deathEpisode = null;
+        for (const ep of episodes) {
+            if (Number(ep.episode) !== deathEpisode || Number(ep.season) !== deathSeason) {
+
                 if (isBeforeThan(ep, firstAppearance as any)) continue;
-                
+
                 const app = character.appearances.find(
                     (e) => +e.episode == +ep.episode && +e.season == +ep.season
                 );
-                
+
                 r[character.id].push({
-                    y: app ? top + 20 * idx : defaultYPosition,
+                    y: app ? getCharacterIntoEpisodeY(idx, episodeCardTopY) : defaultYPosition,
                     x: getXPositionByEpisode(+ep.episode, +ep.season),
                 });
-            }else{
-                r[character.id][r[character.id].length-1].x = r[character.id][r[character.id].length-1].x + (episodeAreaWidth/2);
+            } else {
+                r[character.id][r[character.id].length - 1].x = r[character.id][r[character.id].length - 1].x + (episodeAreaWidth / 2);
                 break;
             }
-           
+
         }
     });
-  
+
     return r;
 }
 
@@ -142,18 +156,6 @@ function updateTooltip(e: CharacterLineInteraction) {
     if (character) tooltip.data = character;
 
 }
-
-/** State */
-const episodesRefs = ref<any>([]);
-const positionsByCharacter = ref<any>({});
-const positionsByEpisode = ref<Point[]>(calculateEpisodeCardsCoordinates());
-const isReady = ref(false);
-const tooltip = reactive({
-    visible: false,
-    x: 0,
-    y: 0,
-    data: props.characters[0]
-});
 
 onMounted(() => {
     positionsByCharacter.value = calculateCharactersCoordinates();

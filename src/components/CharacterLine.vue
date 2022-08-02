@@ -7,8 +7,8 @@
                 :stroke="character.color" @mousemove="onMouseHover($event)" @mouseleave="onMouseLeave($event)">
             </line>
         </g>
-         
-        <text :x="positions[0].x" :y="positions[0].y" text-anchor="middle">{{ character.name }}</text>
+
+        <text :x="positions[0].x + 50" :y="positions[0].y + 5" text-anchor="middle">{{ character.name }}</text>
     </g>
 </template>
 
@@ -40,7 +40,7 @@ text {
 }
 
 line {
-    stroke-width: 10px;
+    stroke-width: 20px;
     stroke-linecap: round;
     transition: all 0.2s ease;
     cursor: pointer;
@@ -54,6 +54,6 @@ line {
 }
 
 g[class^="character-"]:hover line {
-    stroke-width: 12px;
+    stroke-width: 22px;
 }
 </style>
