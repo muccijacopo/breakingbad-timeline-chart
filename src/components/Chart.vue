@@ -68,7 +68,6 @@ function getCharacterDefaultY(idx: number, total: number, offset: number) {
 }
 
 function getCharacterIntoEpisodeY(idx: number, offset: number) {
-    console.log(idx, offset)
     return offset + (idx * (characterLineHeight + marginBetweenCharacterLines));
 }
 
