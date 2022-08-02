@@ -1,6 +1,6 @@
 <template>
     <g class="character-entry">
-        <circle :cx="positions[0].x" :cy="positions[0].y" r="30" :fill="character.color"></circle>
+        <circle :cx="positions[0].x" :cy="positions[0].y" r="30"></circle>
         <g :class="'character-' + character.name" @mousemove="onMouseHover($event)">
             <line v-for="(position, idx) in positions" :x1="position.x" :y1="position.y"
                 :x2="positions[idx + 1]?.x ?? position.x" :y2="positions[idx + 1]?.y ?? position.y"
@@ -44,6 +44,10 @@ line {
     stroke-linecap: round;
     transition: all 0.2s ease;
     cursor: pointer;
+}
+
+circle {
+    fill: transparent;
 }
 
 /* line:hover {
