@@ -320,7 +320,7 @@
                 "title_ep": "Felina"
             }
         ],
-        "color": "#45BF55"
+        "color": "#DB073D"
     },
     {
         "id": 2,
@@ -640,7 +640,7 @@
                 "title_ep": "Felina"
             }
         ],
-        "color": "#e6b7eb"
+        "color": "#eaff8c"
     },
     {
         "id": 3,
@@ -955,7 +955,7 @@
                 "title_ep": "Felina"
             }
         ],
-        "color": "#ab7885"
+        "color": "#45BF55"
     },
     {
         "id": 4,
@@ -1225,7 +1225,7 @@
                 "title_ep": "Felina"
             }
         ],
-        "color": "#DB073D"
+        "color": "#486eb5"
     },
     {
         "id": 5,
@@ -1493,7 +1493,7 @@
                 "title_ep": "Ozymandias"
             }
         ],
-        "color": "#1F8A70"
+        "color": "#95e8ab"
     },
     {
         "id": 6,
@@ -1758,7 +1758,7 @@
                 "title_ep": "Felina"
             }
         ],
-        "color": "#eaff8c"
+        "color": "#5c6f94"
     },
     {
         "id": 7,
@@ -1891,7 +1891,7 @@
                 "title_ep": "Gliding Over All"
             }
         ],
-        "color": "#36175E"
+        "color": "#345f70"
     },
     {
         "id": 8,
@@ -2081,7 +2081,7 @@
                 "title_ep": "Granite State"
             }
         ],
-        "color": "#91C46C"
+        "color": "#BEDB39"
     },
     {
         "id": 9,
@@ -2219,7 +2219,7 @@
                 "title_ep": "Face Off"
             }
         ],
-        "color": "#486eb5"
+        "color": "#00796B"
     },
     {
         "id": 10,
@@ -2267,7 +2267,7 @@
                 "title_ep": "Crawl Space"
             }
         ],
-        "color": "#0D6986"
+        "color": "#ab7885"
     },
     {
         "id": 11,
@@ -2295,7 +2295,7 @@
                 "title_ep": "...And the Bag's in the River"
             }
         ],
-        "color": "#345f70"
+        "color": "#91C46C"
     },
     {
         "id": 12,
@@ -2328,7 +2328,7 @@
                 "title_ep": "Grilled"
             }
         ],
-        "color": "#3fa190"
+        "color": "#753745"
     },
     {
         "id": 13,
@@ -2353,7 +2353,7 @@
                 "title_ep": "One Minute"
             }
         ],
-        "color": "#95e8ab"
+        "color": "#b33655"
     },
     {
         "id": 14,
@@ -2411,7 +2411,7 @@
                 "title_ep": "Felina"
             }
         ],
-        "color": "#BEDB39"
+        "color": "#532d85"
     },
     {
         "id": 15,
@@ -2479,7 +2479,7 @@
                 "title_ep": "Felina"
             }
         ],
-        "color": "#00796B"
+        "color": "#1F8A70"
     },
     {
         "id": 16,
@@ -2537,7 +2537,7 @@
                 "title_ep": "Abiquiu"
             }
         ],
-        "color": "#5c6f94"
+        "color": "#0D6986"
     },
     {
         "id": 17,
@@ -2557,7 +2557,7 @@
                 "title_ep": "Felina"
             }
         ],
-        "color": "#DBA507"
+        "color": "#36175E"
     },
     {
         "id": 18,
@@ -2597,7 +2597,7 @@
                 "title_ep": "Felina"
             }
         ],
-        "color": "#753745"
+        "color": "#DBA507"
     },
     {
         "id": 19,
@@ -2662,10 +2662,80 @@
                 "title_ep": "To'hajilee"
             }
         ],
-        "color": "#532d85"
+        "color": "#3fa190"
     },
     {
         "id": 20,
+        "name": "Theodore Beneke",
+        "nickname": "Ted",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/b/bd/Cast_bb_700x1000_todd-beneke-lg.jpg/revision/latest?cb=20170723165057",
+        "death": {},
+        "appearances": [
+            {
+                "season": 2,
+                "episode": 7,
+                "title_ep": "Negro y Azul"
+            },
+            {
+                "season": 2,
+                "episode": 10,
+                "title_ep": "Over"
+            },
+            {
+                "season": 2,
+                "episode": 11,
+                "title_ep": "Mandala"
+            },
+            {
+                "season": 2,
+                "episode": 12,
+                "title_ep": "Phoenix"
+            },
+            {
+                "season": 3,
+                "episode": 3,
+                "title_ep": "IFT"
+            },
+            {
+                "season": 3,
+                "episode": 4,
+                "title_ep": "Green Light"
+            },
+            {
+                "season": 3,
+                "episode": 5,
+                "title_ep": "Más"
+            },
+            {
+                "season": 3,
+                "episode": 9,
+                "title_ep": "Kafkaesque"
+            },
+            {
+                "season": 4,
+                "episode": 9,
+                "title_ep": "Bug"
+            },
+            {
+                "season": 4,
+                "episode": 10,
+                "title_ep": "Salud"
+            },
+            {
+                "season": 4,
+                "episode": 11,
+                "title_ep": "Crawl Space"
+            },
+            {
+                "season": 5,
+                "episode": 1,
+                "title_ep": "Live Free of Die"
+            }
+        ],
+        "color": "#e6b7eb"
+    },
+    {
+        "id": 21,
         "name": "Steven Gomez",
         "nickname": "Gomie",
         "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_steven-gomez-lg.jpg",
@@ -2680,7 +2750,7 @@
                 "title_ep": "Ozymandias"
             }
         ],
-        "color": "#b33655"
+        "color": "#ebeb50"
     },
     {
         "id": 22,
@@ -2722,7 +2792,8 @@
                 "episode": 7,
                 "title_ep": "Problem Dog"
             }
-        ]
+        ],
+        "color": "#74e5fc"
     },
     {
         "id": 23,
@@ -2774,7 +2845,8 @@
                 "episode": 15,
                 "title_ep": "Granite State"
             }
-        ]
+        ],
+        "color": "#87bccc"
     },
     {
         "id": 24,
@@ -2823,7 +2895,8 @@
                 "episode": 13,
                 "title_ep": "To'hajilee"
             }
-        ]
+        ],
+        "color": "#7b1675"
     },
     {
         "id": 25,
@@ -2877,7 +2950,8 @@
                 "episode": 15,
                 "title_ep": "Granite State"
             }
-        ]
+        ],
+        "color": "#d3c684"
     },
     {
         "id": 26,
@@ -2911,7 +2985,8 @@
                 "episode": 16,
                 "title_ep": "Felina"
             }
-        ]
+        ],
+        "color": "#dc19db"
     },
     {
         "id": 27,
@@ -2935,7 +3010,8 @@
                 "episode": 16,
                 "title_ep": "Felina"
             }
-        ]
+        ],
+        "color": "#527dd"
     },
     {
         "id": 28,
@@ -2962,7 +3038,8 @@
                 "episode": 1,
                 "title_ep": "Seven-Thirty-Seven"
             }
-        ]
+        ],
+        "color": "#f43261"
     },
     {
         "id": 29,
@@ -2979,7 +3056,8 @@
                 "episode": 11,
                 "title_ep": "Mandala"
             }
-        ]
+        ],
+        "color": "#763b76"
     },
     {
         "id": 30,
@@ -3008,7 +3086,8 @@
                 "episode": 2,
                 "title_ep": "Caballo sin Nombre"
             }
-        ]
+        ],
+        "color": "#204631"
     },
     {
         "id": 31,
@@ -3032,7 +3111,8 @@
                 "episode": 1,
                 "title_ep": "No Más"
             }
-        ]
+        ],
+        "color": "#e6d8aa"
     },
     {
         "id": 33,
@@ -3059,7 +3139,8 @@
                 "episode": 1,
                 "title_ep": "Seven-Thirty-Seven"
             }
-        ]
+        ],
+        "color": "#93ad21"
     },
     {
         "id": 34,
@@ -3081,7 +3162,8 @@
                 "episode": 2,
                 "title_ep": "Cat's in the Bag..."
             }
-        ]
+        ],
+        "color": "#acf06b"
     },
     {
         "id": 35,
@@ -3125,7 +3207,8 @@
                 "episode": 13,
                 "title_ep": "ABQ"
             }
-        ]
+        ],
+        "color": "#3be540"
     },
     {
         "id": 36,
@@ -3149,7 +3232,8 @@
                 "episode": 12,
                 "title_ep": "Half measures"
             }
-        ]
+        ],
+        "color": "#94748d"
     },
     {
         "id": 37,
@@ -3173,7 +3257,8 @@
                 "episode": 6,
                 "title_ep": "Cornered"
             }
-        ]
+        ],
+        "color": "#eda77d"
     },
     {
         "id": 38,
@@ -3187,7 +3272,8 @@
                 "episode": 4,
                 "title_ep": "Cancer Man"
             }
-        ]
+        ],
+        "color": "#c72de7"
     },
     {
         "id": 39,
@@ -3356,7 +3442,8 @@
                 "episode": 16,
                 "title_ep": "Felina"
             }
-        ]
+        ],
+        "color": "#9f7bc2"
     },
     {
         "id": 40,
@@ -3420,7 +3507,8 @@
                 "episode": 1,
                 "title_ep": "Live Free of Die"
             }
-        ]
+        ],
+        "color": "#3014e7"
     },
     {
         "id": 41,
@@ -3444,7 +3532,8 @@
                 "episode": 13,
                 "title_ep": "ABQ"
             }
-        ]
+        ],
+        "color": "#b59e2e"
     },
     {
         "id": 42,
@@ -3473,7 +3562,8 @@
                 "episode": 6,
                 "title_ep": "Sunset"
             }
-        ]
+        ],
+        "color": "#65b713"
     },
     {
         "id": 44,
@@ -3500,7 +3590,8 @@
                 "episode": 1,
                 "title_ep": "Box Cutter"
             }
-        ]
+        ],
+        "color": "#b60de4"
     },
     {
         "id": 46,
@@ -3554,7 +3645,8 @@
                 "episode": 11,
                 "title_ep": "Confessions"
             }
-        ]
+        ],
+        "color": "#bc4549"
     },
     {
         "id": 48,
@@ -3571,7 +3663,8 @@
                 "episode": 7,
                 "title_ep": "Negro y Azul"
             }
-        ]
+        ],
+        "color": "#6cda4c"
     },
     {
         "id": 57,
@@ -3613,6 +3706,7 @@
                 "episode": 16,
                 "title_ep": "Felina"
             }
-        ]
+        ],
+        "color": "#549bf4"
     }
 ]
