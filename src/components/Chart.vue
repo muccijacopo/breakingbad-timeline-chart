@@ -1,4 +1,5 @@
 <template>
+    <img src="title.png" class="img-title">
     <div class="chart">
         <svg v-if="isReady">
             <CharacterLine v-for="(character, idx) in characters" :character="character"
@@ -171,11 +172,10 @@ onMounted(() => {
 
 <style scoped>
 .chart {
-    padding: 2rem;
     position: relative;
     width: 100vw;
     height: 100vh;
-    border: 1px solid #282828;
+    padding: 2rem;
     overflow: scroll;
 }
 
@@ -215,5 +215,13 @@ svg {
     opacity: 0.5;
     /* border-radius: 12px; */
     transition: opacity 0.5s ease;
+}
+
+.img-title {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    z-index: 5;
+    width: 200px;
 }
 </style>

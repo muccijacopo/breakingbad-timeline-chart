@@ -24,10 +24,6 @@ function shuffle(array: any[]) {
 </script>
 
 <template>
-  <!-- <div class="div-title">
-    <img src="title.png"  margin-left="300px" class="img-title">
-  </div> -->
-
   <Chart :episodes="episodes.filter(e => e.series?.includes('Breaking Bad'))" :characters="dataset" />
 </template>
 
