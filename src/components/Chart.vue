@@ -168,7 +168,7 @@ onMounted(() => {
     position: relative;
     width: 100vw;
     height: 100vh;
-    border: 1px solid white;
+    border: 1px solid #282828;
     overflow: scroll;
 }
 
