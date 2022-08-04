@@ -78,7 +78,7 @@ function calculateEpisodeCardsCoordinates(
     episodes: Episode[] = props.episodes,
     characters: Character[] = props.characters
 ): Point[] {
-    const y = (characters.length / 2) * (characterLineHeight + marginBetweenCharacterLines);
+    const y = (characters.length / 2) * (characterLineHeight + marginBetweenCharacterLines) + 30
     const r = episodes.map((_, idx) => {
         if (idx == 0) return { x: extraLeftArea, y };
         else
