@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
 import type { Character } from '@/models/Character';
-import type { Point } from '@/utils/utils';
+import type { Point } from '@/models/Coordinates';
 const props = defineProps<{ visible: boolean, position: Point, data: Character }>()
 </script>
 

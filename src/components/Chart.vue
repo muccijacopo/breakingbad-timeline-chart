@@ -1,5 +1,5 @@
 <template>
-    <img src="title.png" class="img-title">
+    <img src="@/assets/title.png" class="img-title">
     <div class="chart">
         <svg v-if="isReady">
             <CharacterLine v-for="(character, idx) in characters" :character="character"
