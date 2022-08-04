@@ -92,7 +92,7 @@ function calculateCharactersCoordinates(
     episodes: Episode[] = props.episodes
 ) {
     if (!characters || !episodes) return {};
-    const r: { [key: number]: { x: number | string; y: number | string }[] } = {};
+    const r: { [key: number]: Point[] } = {};
     const episodeCardTopY = positionsByEpisode.value[0].y;
     const episodeCardBottomY = episodeCardTopY + episodeAreaHeight;
     characters.forEach((character, idx) => {
