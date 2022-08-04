@@ -11,7 +11,9 @@
             height: episodeAreaHeight + 'px',
             width: episodeAreaWidth + 'px',
         }">
-            {{ episode.season }} / {{ episode.episode }} ({{ episode.title }})
+            <h3 style="font-weight: bold">{{ episode.title }}</h3>
+            <p>Season {{ episode.season }}</p>
+            <p>Episode {{ episode.episode }}</p>
         </div>
         <Tooltip :visible="tooltip.visible" :position="{ x: tooltip.x, y: tooltip.y }" :data="tooltip.data" />
     </div>
@@ -205,6 +207,7 @@ svg {
     font-size: 1.2rem;
     writing-mode: vertical-rl;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-overflow: ellipsis;
