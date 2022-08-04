@@ -2,6 +2,25 @@
 import dataset from './assets/dataset.json';
 import episodes from './assets/episodes.json';
 import Chart from './components/Chart.vue'
+
+function shuffle(array: any[]) {
+  let currentIndex = array.length, randomIndex;
+
+  // While there remain elements to shuffle.
+  while (currentIndex != 0) {
+
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+
+  return array;
+}
 </script>
 
 <template>

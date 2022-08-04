@@ -321,327 +321,7 @@
             }
         ],
         "color": "#DB073D"
-    },
-    {
-        "id": 2,
-        "name": "Jesse Pinkman",
-        "nickname": "Cap n' Cook",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/9/95/JesseS5.jpg/revision/latest?cb=20120620012441",
-        "death": {},
-        "appearances": [
-            {
-                "season": 1,
-                "episode": 1,
-                "title_ep": "Pilot"
-            },
-            {
-                "season": 1,
-                "episode": 2,
-                "title_ep": "Cat's in the Bag..."
-            },
-            {
-                "season": 1,
-                "episode": 3,
-                "title_ep": "...And the Bag's in the River"
-            },
-            {
-                "season": 1,
-                "episode": 4,
-                "title_ep": "Cancer Man"
-            },
-            {
-                "season": 1,
-                "episode": 5,
-                "title_ep": "Gray Matter"
-            },
-            {
-                "season": 1,
-                "episode": 6,
-                "title_ep": "Crazy Handful of Nothin"
-            },
-            {
-                "season": 1,
-                "episode": 7,
-                "title_ep": "A No-Rough-Stuff-Type Deal"
-            },
-            {
-                "season": 2,
-                "episode": 1,
-                "title_ep": "Seven-Thirty-Seven"
-            },
-            {
-                "season": 2,
-                "episode": 2,
-                "title_ep": "Grilled"
-            },
-            {
-                "season": 2,
-                "episode": 3,
-                "title_ep": "Bit by a Dead Bee"
-            },
-            {
-                "season": 2,
-                "episode": 4,
-                "title_ep": "Down"
-            },
-            {
-                "season": 2,
-                "episode": 5,
-                "title_ep": "Breakage"
-            },
-            {
-                "season": 2,
-                "episode": 6,
-                "title_ep": "Peekaboo"
-            },
-            {
-                "season": 2,
-                "episode": 7,
-                "title_ep": "Negro y Azul"
-            },
-            {
-                "season": 2,
-                "episode": 8,
-                "title_ep": "Better Call Saul"
-            },
-            {
-                "season": 2,
-                "episode": 9,
-                "title_ep": "4 Days Out"
-            },
-            {
-                "season": 2,
-                "episode": 10,
-                "title_ep": "Over"
-            },
-            {
-                "season": 2,
-                "episode": 11,
-                "title_ep": "Mandala"
-            },
-            {
-                "season": 2,
-                "episode": 12,
-                "title_ep": "Phoenix"
-            },
-            {
-                "season": 2,
-                "episode": 13,
-                "title_ep": "ABQ"
-            },
-            {
-                "season": 3,
-                "episode": 1,
-                "title_ep": "No Más"
-            },
-            {
-                "season": 3,
-                "episode": 2,
-                "title_ep": "Caballo sin Nombre"
-            },
-            {
-                "season": 3,
-                "episode": 3,
-                "title_ep": "IFT"
-            },
-            {
-                "season": 3,
-                "episode": 4,
-                "title_ep": "Green Light"
-            },
-            {
-                "season": 3,
-                "episode": 5,
-                "title_ep": "Más"
-            },
-            {
-                "season": 3,
-                "episode": 6,
-                "title_ep": "Sunset"
-            },
-            {
-                "season": 3,
-                "episode": 7,
-                "title_ep": "One Minute"
-            },
-            {
-                "season": 3,
-                "episode": 8,
-                "title_ep": "I See You"
-            },
-            {
-                "season": 3,
-                "episode": 9,
-                "title_ep": "Kafkaesque"
-            },
-            {
-                "season": 3,
-                "episode": 10,
-                "title_ep": "Fly"
-            },
-            {
-                "season": 3,
-                "episode": 11,
-                "title_ep": "Abiquiu"
-            },
-            {
-                "season": 3,
-                "episode": 12,
-                "title_ep": "Half measures"
-            },
-            {
-                "season": 3,
-                "episode": 13,
-                "title_ep": "Full Measure"
-            },
-            {
-                "season": 4,
-                "episode": 1,
-                "title_ep": "Box Cutter"
-            },
-            {
-                "season": 4,
-                "episode": 2,
-                "title_ep": "Thirty-Eight Snub"
-            },
-            {
-                "season": 4,
-                "episode": 3,
-                "title_ep": "Open House"
-            },
-            {
-                "season": 4,
-                "episode": 4,
-                "title_ep": "Bullet Points"
-            },
-            {
-                "season": 4,
-                "episode": 5,
-                "title_ep": "Shotgun"
-            },
-            {
-                "season": 4,
-                "episode": 6,
-                "title_ep": "Cornered"
-            },
-            {
-                "season": 4,
-                "episode": 7,
-                "title_ep": "Problem Dog"
-            },
-            {
-                "season": 4,
-                "episode": 8,
-                "title_ep": "Hermanos"
-            },
-            {
-                "season": 4,
-                "episode": 9,
-                "title_ep": "Bug"
-            },
-            {
-                "season": 4,
-                "episode": 10,
-                "title_ep": "Salud"
-            },
-            {
-                "season": 4,
-                "episode": 11,
-                "title_ep": "Crawl Space"
-            },
-            {
-                "season": 4,
-                "episode": 12,
-                "title_ep": "End Times"
-            },
-            {
-                "season": 4,
-                "episode": 13,
-                "title_ep": "Face Off"
-            },
-            {
-                "season": 5,
-                "episode": 1,
-                "title_ep": "Live Free of Die"
-            },
-            {
-                "season": 5,
-                "episode": 2,
-                "title_ep": "Madrigal"
-            },
-            {
-                "season": 5,
-                "episode": 3,
-                "title_ep": "Hazard Pay"
-            },
-            {
-                "season": 5,
-                "episode": 4,
-                "title_ep": "Fifty-One"
-            },
-            {
-                "season": 5,
-                "episode": 5,
-                "title_ep": "Dead Freight"
-            },
-            {
-                "season": 5,
-                "episode": 6,
-                "title_ep": "Buyout"
-            },
-            {
-                "season": 5,
-                "episode": 7,
-                "title_ep": "Say My Name"
-            },
-            {
-                "season": 5,
-                "episode": 8,
-                "title_ep": "Gliding Over All"
-            },
-            {
-                "season": 5,
-                "episode": 9,
-                "title_ep": "Blood Money"
-            },
-            {
-                "season": 5,
-                "episode": 10,
-                "title_ep": "Buried"
-            },
-            {
-                "season": 5,
-                "episode": 11,
-                "title_ep": "Confessions"
-            },
-            {
-                "season": 5,
-                "episode": 12,
-                "title_ep": "Rabid Dog"
-            },
-            {
-                "season": 5,
-                "episode": 13,
-                "title_ep": "To'hajilee"
-            },
-            {
-                "season": 5,
-                "episode": 14,
-                "title_ep": "Ozymandias"
-            },
-            {
-                "season": 5,
-                "episode": 15,
-                "title_ep": "Granite State"
-            },
-            {
-                "season": 5,
-                "episode": 16,
-                "title_ep": "Felina"
-            }
-        ],
-        "color": "#FF762B"
-    },
+    },   
     {
         "id": 3,
         "name": "Skyler White",
@@ -1228,6 +908,718 @@
         "color": "#486eb5"
     },
     {
+        "id": 11,
+        "name": "Domingo Molina",
+        "nickname": "Krazy-8",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/e/e7/Krazy8.png/revision/latest?cb=20130208041554",
+        "death": {
+            "season": 1,
+            "episode": 3
+        },
+        "appearances": [
+            {
+                "season": 1,
+                "episode": 1,
+                "title_ep": "Pilot"
+            },
+            {
+                "season": 1,
+                "episode": 2,
+                "title_ep": "Cat's in the Bag..."
+            },
+            {
+                "season": 1,
+                "episode": 3,
+                "title_ep": "...And the Bag's in the River"
+            }
+        ],
+        "color": "#91C46C"
+    },
+    {
+        "id": 18,
+        "name": "Brandon Mayhew",
+        "nickname": "Badger",
+        "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_badger-lg.jpg",
+        "death": {},
+        "appearances": [
+            {
+                "season": 1,
+                "episode": 5,
+                "title_ep": "Gray Matter"
+            },
+            {
+                "season": 2,
+                "episode": 5,
+                "title_ep": "Breakage"
+            },
+            {
+                "season": 2,
+                "episode": 8,
+                "title_ep": "Better Call Saul"
+            },
+            {
+                "season": 5,
+                "episode": 3,
+                "title_ep": "Hazard Pay"
+            },
+            {
+                "season": 5,
+                "episode": 9,
+                "title_ep": "Blood Money"
+            },
+            {
+                "season": 5,
+                "episode": 16,
+                "title_ep": "Felina"
+            }
+        ],
+        "color": "#DBA507"
+    },
+    {
+        "id": 19,
+        "name": "Huell Babineaux",
+        "nickname": "Huell",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/c/c1/4x11_-_Huell.png/revision/latest?cb=20130913100459&path-prefix=es",
+        "death": {},
+        "appearances": [
+            {
+                "season": 4,
+                "episode": 1,
+                "title_ep": "Box Cutter"
+            },
+            {
+                "season": 4,
+                "episode": 3,
+                "title_ep": "Open House"
+            },
+            {
+                "season": 4,
+                "episode": 8,
+                "title_ep": "Hermanos"
+            },
+            {
+                "season": 4,
+                "episode": 11,
+                "title_ep": "Crawl Space"
+            },
+            {
+                "season": 4,
+                "episode": 12,
+                "title_ep": "End Times"
+            },
+            {
+                "season": 5,
+                "episode": 3,
+                "title_ep": "Hazard Pay"
+            },
+            {
+                "season": 5,
+                "episode": 9,
+                "title_ep": "Blood Money"
+            },
+            {
+                "season": 5,
+                "episode": 10,
+                "title_ep": "Buried"
+            },
+            {
+                "season": 5,
+                "episode": 11,
+                "title_ep": "Confessions"
+            },
+            {
+                "season": 5,
+                "episode": 12,
+                "title_ep": "Rabid Dog"
+            },
+            {
+                "season": 5,
+                "episode": 13,
+                "title_ep": "To'hajilee"
+            }
+        ],
+        "color": "#3fa190"
+    },
+    {
+        "id": 20,
+        "name": "Theodore Beneke",
+        "nickname": "Ted",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/b/bd/Cast_bb_700x1000_todd-beneke-lg.jpg/revision/latest?cb=20170723165057",
+        "death": {},
+        "appearances": [
+            {
+                "season": 2,
+                "episode": 7,
+                "title_ep": "Negro y Azul"
+            },
+            {
+                "season": 2,
+                "episode": 10,
+                "title_ep": "Over"
+            },
+            {
+                "season": 2,
+                "episode": 11,
+                "title_ep": "Mandala"
+            },
+            {
+                "season": 2,
+                "episode": 12,
+                "title_ep": "Phoenix"
+            },
+            {
+                "season": 3,
+                "episode": 3,
+                "title_ep": "IFT"
+            },
+            {
+                "season": 3,
+                "episode": 4,
+                "title_ep": "Green Light"
+            },
+            {
+                "season": 3,
+                "episode": 5,
+                "title_ep": "Más"
+            },
+            {
+                "season": 3,
+                "episode": 9,
+                "title_ep": "Kafkaesque"
+            },
+            {
+                "season": 4,
+                "episode": 9,
+                "title_ep": "Bug"
+            },
+            {
+                "season": 4,
+                "episode": 10,
+                "title_ep": "Salud"
+            },
+            {
+                "season": 4,
+                "episode": 11,
+                "title_ep": "Crawl Space"
+            },
+            {
+                "season": 5,
+                "episode": 1,
+                "title_ep": "Live Free of Die"
+            }
+        ],
+        "color": "#e6b7eb"
+    },
+    {
+        "id": 7,
+        "name": "Mike Ehrmantraut",
+        "nickname": "Mike",
+        "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_mike-ehrmantraut-lg.jpg",
+        "death": {
+            "season": 5,
+            "episode": 7
+        },
+        "appearances": [
+            {
+                "season": 2,
+                "episode": 13,
+                "title_ep": "ABQ"
+            },
+            {
+                "season": 3,
+                "episode": 2,
+                "title_ep": "Caballo sin Nombre"
+            },
+            {
+                "season": 3,
+                "episode": 4,
+                "title_ep": "Green Light"
+            },
+            {
+                "season": 3,
+                "episode": 8,
+                "title_ep": "I See You"
+            },
+            {
+                "season": 3,
+                "episode": 12,
+                "title_ep": "Half measures"
+            },
+            {
+                "season": 3,
+                "episode": 13,
+                "title_ep": "Full Measure"
+            },
+            {
+                "season": 4,
+                "episode": 1,
+                "title_ep": "Box Cutter"
+            },
+            {
+                "season": 4,
+                "episode": 2,
+                "title_ep": "Thirty-Eight Snub"
+            },
+            {
+                "season": 4,
+                "episode": 4,
+                "title_ep": "Bullet Points"
+            },
+            {
+                "season": 4,
+                "episode": 5,
+                "title_ep": "Shotgun"
+            },
+            {
+                "season": 4,
+                "episode": 6,
+                "title_ep": "Cornered"
+            },
+            {
+                "season": 4,
+                "episode": 7,
+                "title_ep": "Problem Dog"
+            },
+            {
+                "season": 4,
+                "episode": 8,
+                "title_ep": "Hermanos"
+            },
+            {
+                "season": 4,
+                "episode": 9,
+                "title_ep": "Bug"
+            },
+            {
+                "season": 4,
+                "episode": 10,
+                "title_ep": "Salud"
+            },
+            {
+                "season": 4,
+                "episode": 11,
+                "title_ep": "Crawl Space"
+            },
+            {
+                "season": 5,
+                "episode": 1,
+                "title_ep": "Live Free of Die"
+            },
+            {
+                "season": 5,
+                "episode": 2,
+                "title_ep": "Madrigal"
+            },
+            {
+                "season": 5,
+                "episode": 3,
+                "title_ep": "Hazard Pay"
+            },
+            {
+                "season": 5,
+                "episode": 4,
+                "title_ep": "Fifty-One"
+            },
+            {
+                "season": 5,
+                "episode": 5,
+                "title_ep": "Dead Freight"
+            },
+            {
+                "season": 5,
+                "episode": 6,
+                "title_ep": "Buyout"
+            },
+            {
+                "season": 5,
+                "episode": 7,
+                "title_ep": "Say My Name"
+            },
+            {
+                "season": 5,
+                "episode": 8,
+                "title_ep": "Gliding Over All"
+            }
+        ],
+        "color": "#345f70"
+    },
+    {
+        "id": 8,
+        "name": "Saul Goodman",
+        "nickname": "Jimmy McGill",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/1/16/Saul_Goodman.jpg/revision/latest?cb=20120704065846",
+        "death": {},
+        "appearances": [
+            {
+                "season": 2,
+                "episode": 8,
+                "title_ep": "Better Call Saul"
+            },
+            {
+                "season": 2,
+                "episode": 9,
+                "title_ep": "4 Days Out"
+            },
+            {
+                "season": 2,
+                "episode": 11,
+                "title_ep": "Mandala"
+            },
+            {
+                "season": 2,
+                "episode": 12,
+                "title_ep": "Phoenix"
+            },
+            {
+                "season": 3,
+                "episode": 2,
+                "title_ep": "Caballo sin Nombre"
+            },
+            {
+                "season": 3,
+                "episode": 3,
+                "title_ep": "IFT"
+            },
+            {
+                "season": 3,
+                "episode": 4,
+                "title_ep": "Green Light"
+            },
+            {
+                "season": 3,
+                "episode": 5,
+                "title_ep": "Más"
+            },
+            {
+                "season": 3,
+                "episode": 6,
+                "title_ep": "Sunset"
+            },
+            {
+                "season": 3,
+                "episode": 7,
+                "title_ep": "One Minute"
+            },
+            {
+                "season": 3,
+                "episode": 9,
+                "title_ep": "Kafkaesque"
+            },
+            {
+                "season": 3,
+                "episode": 11,
+                "title_ep": "Abiquiu"
+            },
+            {
+                "season": 3,
+                "episode": 12,
+                "title_ep": "Half measures"
+            },
+            {
+                "season": 3,
+                "episode": 13,
+                "title_ep": "Full Measure"
+            },
+            {
+                "season": 4,
+                "episode": 1,
+                "title_ep": "Box Cutter"
+            },
+            {
+                "season": 4,
+                "episode": 2,
+                "title_ep": "Thirty-Eight Snub"
+            },
+            {
+                "season": 4,
+                "episode": 3,
+                "title_ep": "Open House"
+            },
+            {
+                "season": 4,
+                "episode": 4,
+                "title_ep": "Bullet Points"
+            },
+            {
+                "season": 4,
+                "episode": 7,
+                "title_ep": "Problem Dog"
+            },
+            {
+                "season": 4,
+                "episode": 8,
+                "title_ep": "Hermanos"
+            },
+            {
+                "season": 4,
+                "episode": 10,
+                "title_ep": "Salud"
+            },
+            {
+                "season": 4,
+                "episode": 11,
+                "title_ep": "Crawl Space"
+            },
+            {
+                "season": 4,
+                "episode": 12,
+                "title_ep": "End Times"
+            },
+            {
+                "season": 4,
+                "episode": 13,
+                "title_ep": "Face Off"
+            },
+            {
+                "season": 5,
+                "episode": 1,
+                "title_ep": "Live Free of Die"
+            },
+            {
+                "season": 5,
+                "episode": 2,
+                "title_ep": "Madrigal"
+            },
+            {
+                "season": 5,
+                "episode": 3,
+                "title_ep": "Hazard Pay"
+            },
+            {
+                "season": 5,
+                "episode": 6,
+                "title_ep": "Buyout"
+            },
+            {
+                "season": 5,
+                "episode": 7,
+                "title_ep": "Say My Name"
+            },
+            {
+                "season": 5,
+                "episode": 8,
+                "title_ep": "Gliding Over All"
+            },
+            {
+                "season": 5,
+                "episode": 9,
+                "title_ep": "Blood Money"
+            },
+            {
+                "season": 5,
+                "episode": 10,
+                "title_ep": "Buried"
+            },
+            {
+                "season": 5,
+                "episode": 11,
+                "title_ep": "Confessions"
+            },
+            {
+                "season": 5,
+                "episode": 12,
+                "title_ep": "Rabid Dog"
+            },
+            {
+                "season": 5,
+                "episode": 13,
+                "title_ep": "To'hajilee"
+            },
+            {
+                "season": 5,
+                "episode": 15,
+                "title_ep": "Granite State"
+            }
+        ],
+        "color": "#BEDB39"
+    },
+    {
+        "id": 9,
+        "name": "Gustavo Fring",
+        "nickname": "Gus",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/1/1f/BCS_S4_Gustavo_Fring.jpg/revision/latest?cb=20180824195925",
+        "death": {
+            "season": 4,
+            "episode": 13
+        },
+        "appearances": [
+            {
+                "season": 2,
+                "episode": 11,
+                "title_ep": "Mandala"
+            },
+            {
+                "season": 2,
+                "episode": 13,
+                "title_ep": "ABQ"
+            },
+            {
+                "season": 3,
+                "episode": 1,
+                "title_ep": "No Más"
+            },
+            {
+                "season": 3,
+                "episode": 2,
+                "title_ep": "Caballo sin Nombre"
+            },
+            {
+                "season": 3,
+                "episode": 3,
+                "title_ep": "IFT"
+            },
+            {
+                "season": 3,
+                "episode": 4,
+                "title_ep": "Green Light"
+            },
+            {
+                "season": 3,
+                "episode": 5,
+                "title_ep": "Más"
+            },
+            {
+                "season": 3,
+                "episode": 6,
+                "title_ep": "Sunset"
+            },
+            {
+                "season": 3,
+                "episode": 8,
+                "title_ep": "I See You"
+            },
+            {
+                "season": 3,
+                "episode": 9,
+                "title_ep": "Kafkaesque"
+            },
+            {
+                "season": 3,
+                "episode": 11,
+                "title_ep": "Abiquiu"
+            },
+            {
+                "season": 3,
+                "episode": 12,
+                "title_ep": "Half measures"
+            },
+            {
+                "season": 3,
+                "episode": 13,
+                "title_ep": "Full Measure"
+            },
+            {
+                "season": 4,
+                "episode": 1,
+                "title_ep": "Box Cutter"
+            },
+            {
+                "season": 4,
+                "episode": 2,
+                "title_ep": "Thirty-Eight Snub"
+            },
+            {
+                "season": 4,
+                "episode": 4,
+                "title_ep": "Bullet Points"
+            },
+            {
+                "season": 4,
+                "episode": 5,
+                "title_ep": "Shotgun"
+            },
+            {
+                "season": 4,
+                "episode": 6,
+                "title_ep": "Cornered"
+            },
+            {
+                "season": 4,
+                "episode": 7,
+                "title_ep": "Problem Dog"
+            },
+            {
+                "season": 4,
+                "episode": 8,
+                "title_ep": "Hermanos"
+            },
+            {
+                "season": 4,
+                "episode": 9,
+                "title_ep": "Bug"
+            },
+            {
+                "season": 4,
+                "episode": 10,
+                "title_ep": "Salud"
+            },
+            {
+                "season": 4,
+                "episode": 11,
+                "title_ep": "Crawl Space"
+            },
+            {
+                "season": 4,
+                "episode": 12,
+                "title_ep": "End Times"
+            },
+            {
+                "season": 4,
+                "episode": 13,
+                "title_ep": "Face Off"
+            }
+        ],
+        "color": "#00796B"
+    },
+    {
+        "id": 10,
+        "name": "Hector Salamanca",
+        "nickname": "Don Hector",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/b/b4/Hector_BCS.jpg/revision/latest?cb=20170810091606",
+        "death": {
+            "season": 4,
+            "episode": 13
+        },
+        "appearances": [
+            {
+                "season": 2,
+                "episode": 2,
+                "title_ep": "Grilled"
+            },
+            {
+                "season": 2,
+                "episode": 3,
+                "title_ep": "Bit by a Dead Bee"
+            },
+            {
+                "season": 3,
+                "episode": 2,
+                "title_ep": "Caballo sin Nombre"
+            },
+            {
+                "season": 3,
+                "episode": 3,
+                "title_ep": "IFT"
+            },
+            {
+                "season": 3,
+                "episode": 7,
+                "title_ep": "One Minute"
+            },
+            {
+                "season": 4,
+                "episode": 8,
+                "title_ep": "Hermanos"
+            },
+            {
+                "season": 4,
+                "episode": 11,
+                "title_ep": "Crawl Space"
+            }
+        ],
+        "color": "#ab7885"
+    },
+    {
         "id": 5,
         "name": "Henry Schrader",
         "nickname": "Hank",
@@ -1761,19 +2153,116 @@
         "color": "#5c6f94"
     },
     {
-        "id": 7,
-        "name": "Mike Ehrmantraut",
-        "nickname": "Mike",
-        "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_mike-ehrmantraut-lg.jpg",
-        "death": {
-            "season": 5,
-            "episode": 7
-        },
+        "id": 2,
+        "name": "Jesse Pinkman",
+        "nickname": "Cap n' Cook",
+        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/9/95/JesseS5.jpg/revision/latest?cb=20120620012441",
+        "death": {},
         "appearances": [
+            {
+                "season": 1,
+                "episode": 1,
+                "title_ep": "Pilot"
+            },
+            {
+                "season": 1,
+                "episode": 2,
+                "title_ep": "Cat's in the Bag..."
+            },
+            {
+                "season": 1,
+                "episode": 3,
+                "title_ep": "...And the Bag's in the River"
+            },
+            {
+                "season": 1,
+                "episode": 4,
+                "title_ep": "Cancer Man"
+            },
+            {
+                "season": 1,
+                "episode": 5,
+                "title_ep": "Gray Matter"
+            },
+            {
+                "season": 1,
+                "episode": 6,
+                "title_ep": "Crazy Handful of Nothin"
+            },
+            {
+                "season": 1,
+                "episode": 7,
+                "title_ep": "A No-Rough-Stuff-Type Deal"
+            },
+            {
+                "season": 2,
+                "episode": 1,
+                "title_ep": "Seven-Thirty-Seven"
+            },
+            {
+                "season": 2,
+                "episode": 2,
+                "title_ep": "Grilled"
+            },
+            {
+                "season": 2,
+                "episode": 3,
+                "title_ep": "Bit by a Dead Bee"
+            },
+            {
+                "season": 2,
+                "episode": 4,
+                "title_ep": "Down"
+            },
+            {
+                "season": 2,
+                "episode": 5,
+                "title_ep": "Breakage"
+            },
+            {
+                "season": 2,
+                "episode": 6,
+                "title_ep": "Peekaboo"
+            },
+            {
+                "season": 2,
+                "episode": 7,
+                "title_ep": "Negro y Azul"
+            },
+            {
+                "season": 2,
+                "episode": 8,
+                "title_ep": "Better Call Saul"
+            },
+            {
+                "season": 2,
+                "episode": 9,
+                "title_ep": "4 Days Out"
+            },
+            {
+                "season": 2,
+                "episode": 10,
+                "title_ep": "Over"
+            },
+            {
+                "season": 2,
+                "episode": 11,
+                "title_ep": "Mandala"
+            },
+            {
+                "season": 2,
+                "episode": 12,
+                "title_ep": "Phoenix"
+            },
             {
                 "season": 2,
                 "episode": 13,
                 "title_ep": "ABQ"
+            },
+            {
+                "season": 3,
+                "episode": 1,
+                "title_ep": "No Más"
             },
             {
                 "season": 3,
@@ -1782,13 +2271,48 @@
             },
             {
                 "season": 3,
+                "episode": 3,
+                "title_ep": "IFT"
+            },
+            {
+                "season": 3,
                 "episode": 4,
                 "title_ep": "Green Light"
             },
             {
                 "season": 3,
+                "episode": 5,
+                "title_ep": "Más"
+            },
+            {
+                "season": 3,
+                "episode": 6,
+                "title_ep": "Sunset"
+            },
+            {
+                "season": 3,
+                "episode": 7,
+                "title_ep": "One Minute"
+            },
+            {
+                "season": 3,
                 "episode": 8,
                 "title_ep": "I See You"
+            },
+            {
+                "season": 3,
+                "episode": 9,
+                "title_ep": "Kafkaesque"
+            },
+            {
+                "season": 3,
+                "episode": 10,
+                "title_ep": "Fly"
+            },
+            {
+                "season": 3,
+                "episode": 11,
+                "title_ep": "Abiquiu"
             },
             {
                 "season": 3,
@@ -1809,6 +2333,11 @@
                 "season": 4,
                 "episode": 2,
                 "title_ep": "Thirty-Eight Snub"
+            },
+            {
+                "season": 4,
+                "episode": 3,
+                "title_ep": "Open House"
             },
             {
                 "season": 4,
@@ -1851,166 +2380,6 @@
                 "title_ep": "Crawl Space"
             },
             {
-                "season": 5,
-                "episode": 1,
-                "title_ep": "Live Free of Die"
-            },
-            {
-                "season": 5,
-                "episode": 2,
-                "title_ep": "Madrigal"
-            },
-            {
-                "season": 5,
-                "episode": 3,
-                "title_ep": "Hazard Pay"
-            },
-            {
-                "season": 5,
-                "episode": 4,
-                "title_ep": "Fifty-One"
-            },
-            {
-                "season": 5,
-                "episode": 5,
-                "title_ep": "Dead Freight"
-            },
-            {
-                "season": 5,
-                "episode": 6,
-                "title_ep": "Buyout"
-            },
-            {
-                "season": 5,
-                "episode": 7,
-                "title_ep": "Say My Name"
-            },
-            {
-                "season": 5,
-                "episode": 8,
-                "title_ep": "Gliding Over All"
-            }
-        ],
-        "color": "#345f70"
-    },
-    {
-        "id": 8,
-        "name": "Saul Goodman",
-        "nickname": "Jimmy McGill",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/1/16/Saul_Goodman.jpg/revision/latest?cb=20120704065846",
-        "death": {},
-        "appearances": [
-            {
-                "season": 2,
-                "episode": 8,
-                "title_ep": "Better Call Saul"
-            },
-            {
-                "season": 2,
-                "episode": 9,
-                "title_ep": "4 Days Out"
-            },
-            {
-                "season": 2,
-                "episode": 11,
-                "title_ep": "Mandala"
-            },
-            {
-                "season": 2,
-                "episode": 12,
-                "title_ep": "Phoenix"
-            },
-            {
-                "season": 3,
-                "episode": 2,
-                "title_ep": "Caballo sin Nombre"
-            },
-            {
-                "season": 3,
-                "episode": 3,
-                "title_ep": "IFT"
-            },
-            {
-                "season": 3,
-                "episode": 4,
-                "title_ep": "Green Light"
-            },
-            {
-                "season": 3,
-                "episode": 5,
-                "title_ep": "Más"
-            },
-            {
-                "season": 3,
-                "episode": 6,
-                "title_ep": "Sunset"
-            },
-            {
-                "season": 3,
-                "episode": 7,
-                "title_ep": "One Minute"
-            },
-            {
-                "season": 3,
-                "episode": 9,
-                "title_ep": "Kafkaesque"
-            },
-            {
-                "season": 3,
-                "episode": 11,
-                "title_ep": "Abiquiu"
-            },
-            {
-                "season": 3,
-                "episode": 12,
-                "title_ep": "Half measures"
-            },
-            {
-                "season": 3,
-                "episode": 13,
-                "title_ep": "Full Measure"
-            },
-            {
-                "season": 4,
-                "episode": 1,
-                "title_ep": "Box Cutter"
-            },
-            {
-                "season": 4,
-                "episode": 2,
-                "title_ep": "Thirty-Eight Snub"
-            },
-            {
-                "season": 4,
-                "episode": 3,
-                "title_ep": "Open House"
-            },
-            {
-                "season": 4,
-                "episode": 4,
-                "title_ep": "Bullet Points"
-            },
-            {
-                "season": 4,
-                "episode": 7,
-                "title_ep": "Problem Dog"
-            },
-            {
-                "season": 4,
-                "episode": 8,
-                "title_ep": "Hermanos"
-            },
-            {
-                "season": 4,
-                "episode": 10,
-                "title_ep": "Salud"
-            },
-            {
-                "season": 4,
-                "episode": 11,
-                "title_ep": "Crawl Space"
-            },
-            {
                 "season": 4,
                 "episode": 12,
                 "title_ep": "End Times"
@@ -2034,6 +2403,16 @@
                 "season": 5,
                 "episode": 3,
                 "title_ep": "Hazard Pay"
+            },
+            {
+                "season": 5,
+                "episode": 4,
+                "title_ep": "Fifty-One"
+            },
+            {
+                "season": 5,
+                "episode": 5,
+                "title_ep": "Dead Freight"
             },
             {
                 "season": 5,
@@ -2077,225 +2456,21 @@
             },
             {
                 "season": 5,
+                "episode": 14,
+                "title_ep": "Ozymandias"
+            },
+            {
+                "season": 5,
                 "episode": 15,
                 "title_ep": "Granite State"
+            },
+            {
+                "season": 5,
+                "episode": 16,
+                "title_ep": "Felina"
             }
         ],
-        "color": "#BEDB39"
-    },
-    {
-        "id": 9,
-        "name": "Gustavo Fring",
-        "nickname": "Gus",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/1/1f/BCS_S4_Gustavo_Fring.jpg/revision/latest?cb=20180824195925",
-        "death": {
-            "season": 4,
-            "episode": 13
-        },
-        "appearances": [
-            {
-                "season": 2,
-                "episode": 11,
-                "title_ep": "Mandala"
-            },
-            {
-                "season": 2,
-                "episode": 13,
-                "title_ep": "ABQ"
-            },
-            {
-                "season": 3,
-                "episode": 1,
-                "title_ep": "No Más"
-            },
-            {
-                "season": 3,
-                "episode": 2,
-                "title_ep": "Caballo sin Nombre"
-            },
-            {
-                "season": 3,
-                "episode": 3,
-                "title_ep": "IFT"
-            },
-            {
-                "season": 3,
-                "episode": 4,
-                "title_ep": "Green Light"
-            },
-            {
-                "season": 3,
-                "episode": 5,
-                "title_ep": "Más"
-            },
-            {
-                "season": 3,
-                "episode": 6,
-                "title_ep": "Sunset"
-            },
-            {
-                "season": 3,
-                "episode": 8,
-                "title_ep": "I See You"
-            },
-            {
-                "season": 3,
-                "episode": 9,
-                "title_ep": "Kafkaesque"
-            },
-            {
-                "season": 3,
-                "episode": 11,
-                "title_ep": "Abiquiu"
-            },
-            {
-                "season": 3,
-                "episode": 12,
-                "title_ep": "Half measures"
-            },
-            {
-                "season": 3,
-                "episode": 13,
-                "title_ep": "Full Measure"
-            },
-            {
-                "season": 4,
-                "episode": 1,
-                "title_ep": "Box Cutter"
-            },
-            {
-                "season": 4,
-                "episode": 2,
-                "title_ep": "Thirty-Eight Snub"
-            },
-            {
-                "season": 4,
-                "episode": 4,
-                "title_ep": "Bullet Points"
-            },
-            {
-                "season": 4,
-                "episode": 5,
-                "title_ep": "Shotgun"
-            },
-            {
-                "season": 4,
-                "episode": 6,
-                "title_ep": "Cornered"
-            },
-            {
-                "season": 4,
-                "episode": 7,
-                "title_ep": "Problem Dog"
-            },
-            {
-                "season": 4,
-                "episode": 8,
-                "title_ep": "Hermanos"
-            },
-            {
-                "season": 4,
-                "episode": 9,
-                "title_ep": "Bug"
-            },
-            {
-                "season": 4,
-                "episode": 10,
-                "title_ep": "Salud"
-            },
-            {
-                "season": 4,
-                "episode": 11,
-                "title_ep": "Crawl Space"
-            },
-            {
-                "season": 4,
-                "episode": 12,
-                "title_ep": "End Times"
-            },
-            {
-                "season": 4,
-                "episode": 13,
-                "title_ep": "Face Off"
-            }
-        ],
-        "color": "#00796B"
-    },
-    {
-        "id": 10,
-        "name": "Hector Salamanca",
-        "nickname": "Don Hector",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/b/b4/Hector_BCS.jpg/revision/latest?cb=20170810091606",
-        "death": {
-            "season": 4,
-            "episode": 13
-        },
-        "appearances": [
-            {
-                "season": 2,
-                "episode": 2,
-                "title_ep": "Grilled"
-            },
-            {
-                "season": 2,
-                "episode": 3,
-                "title_ep": "Bit by a Dead Bee"
-            },
-            {
-                "season": 3,
-                "episode": 2,
-                "title_ep": "Caballo sin Nombre"
-            },
-            {
-                "season": 3,
-                "episode": 3,
-                "title_ep": "IFT"
-            },
-            {
-                "season": 3,
-                "episode": 7,
-                "title_ep": "One Minute"
-            },
-            {
-                "season": 4,
-                "episode": 8,
-                "title_ep": "Hermanos"
-            },
-            {
-                "season": 4,
-                "episode": 11,
-                "title_ep": "Crawl Space"
-            }
-        ],
-        "color": "#ab7885"
-    },
-    {
-        "id": 11,
-        "name": "Domingo Molina",
-        "nickname": "Krazy-8",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/e/e7/Krazy8.png/revision/latest?cb=20130208041554",
-        "death": {
-            "season": 1,
-            "episode": 3
-        },
-        "appearances": [
-            {
-                "season": 1,
-                "episode": 1,
-                "title_ep": "Pilot"
-            },
-            {
-                "season": 1,
-                "episode": 2,
-                "title_ep": "Cat's in the Bag..."
-            },
-            {
-                "season": 1,
-                "episode": 3,
-                "title_ep": "...And the Bag's in the River"
-            }
-        ],
-        "color": "#91C46C"
+        "color": "#FF762B"
     },
     {
         "id": 12,
@@ -2558,180 +2733,5 @@
             }
         ],
         "color": "#36175E"
-    },
-    {
-        "id": 18,
-        "name": "Brandon Mayhew",
-        "nickname": "Badger",
-        "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_badger-lg.jpg",
-        "death": {},
-        "appearances": [
-            {
-                "season": 1,
-                "episode": 5,
-                "title_ep": "Gray Matter"
-            },
-            {
-                "season": 2,
-                "episode": 5,
-                "title_ep": "Breakage"
-            },
-            {
-                "season": 2,
-                "episode": 8,
-                "title_ep": "Better Call Saul"
-            },
-            {
-                "season": 5,
-                "episode": 3,
-                "title_ep": "Hazard Pay"
-            },
-            {
-                "season": 5,
-                "episode": 9,
-                "title_ep": "Blood Money"
-            },
-            {
-                "season": 5,
-                "episode": 16,
-                "title_ep": "Felina"
-            }
-        ],
-        "color": "#DBA507"
-    },
-    {
-        "id": 19,
-        "name": "Huell Babineaux",
-        "nickname": "Huell",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/c/c1/4x11_-_Huell.png/revision/latest?cb=20130913100459&path-prefix=es",
-        "death": {},
-        "appearances": [
-            {
-                "season": 4,
-                "episode": 1,
-                "title_ep": "Box Cutter"
-            },
-            {
-                "season": 4,
-                "episode": 3,
-                "title_ep": "Open House"
-            },
-            {
-                "season": 4,
-                "episode": 8,
-                "title_ep": "Hermanos"
-            },
-            {
-                "season": 4,
-                "episode": 11,
-                "title_ep": "Crawl Space"
-            },
-            {
-                "season": 4,
-                "episode": 12,
-                "title_ep": "End Times"
-            },
-            {
-                "season": 5,
-                "episode": 3,
-                "title_ep": "Hazard Pay"
-            },
-            {
-                "season": 5,
-                "episode": 9,
-                "title_ep": "Blood Money"
-            },
-            {
-                "season": 5,
-                "episode": 10,
-                "title_ep": "Buried"
-            },
-            {
-                "season": 5,
-                "episode": 11,
-                "title_ep": "Confessions"
-            },
-            {
-                "season": 5,
-                "episode": 12,
-                "title_ep": "Rabid Dog"
-            },
-            {
-                "season": 5,
-                "episode": 13,
-                "title_ep": "To'hajilee"
-            }
-        ],
-        "color": "#3fa190"
-    },
-    {
-        "id": 20,
-        "name": "Theodore Beneke",
-        "nickname": "Ted",
-        "img": "https://vignette.wikia.nocookie.net/breakingbad/images/b/bd/Cast_bb_700x1000_todd-beneke-lg.jpg/revision/latest?cb=20170723165057",
-        "death": {},
-        "appearances": [
-            {
-                "season": 2,
-                "episode": 7,
-                "title_ep": "Negro y Azul"
-            },
-            {
-                "season": 2,
-                "episode": 10,
-                "title_ep": "Over"
-            },
-            {
-                "season": 2,
-                "episode": 11,
-                "title_ep": "Mandala"
-            },
-            {
-                "season": 2,
-                "episode": 12,
-                "title_ep": "Phoenix"
-            },
-            {
-                "season": 3,
-                "episode": 3,
-                "title_ep": "IFT"
-            },
-            {
-                "season": 3,
-                "episode": 4,
-                "title_ep": "Green Light"
-            },
-            {
-                "season": 3,
-                "episode": 5,
-                "title_ep": "Más"
-            },
-            {
-                "season": 3,
-                "episode": 9,
-                "title_ep": "Kafkaesque"
-            },
-            {
-                "season": 4,
-                "episode": 9,
-                "title_ep": "Bug"
-            },
-            {
-                "season": 4,
-                "episode": 10,
-                "title_ep": "Salud"
-            },
-            {
-                "season": 4,
-                "episode": 11,
-                "title_ep": "Crawl Space"
-            },
-            {
-                "season": 5,
-                "episode": 1,
-                "title_ep": "Live Free of Die"
-            }
-        ],
-        "color": "#e6b7eb"
     }
 ]

@@ -63,8 +63,8 @@ function getCharacterInitialXPosition(episode: number, season: number) {
 }
 
 function getCharacterDefaultY(idx: number, total: number, offset: number) {
-    if (idx < total / 2) return idx * (characterLineHeight + marginBetweenCharacterLines);
-    else return offset + (idx * (characterLineHeight + marginBetweenCharacterLines));
+    if (idx < total / 2) return idx * (characterLineHeight + marginBetweenCharacterLines)
+    else return offset + ((idx - total / 2) * (characterLineHeight + marginBetweenCharacterLines));
 }
 
 function getCharacterIntoEpisodeY(idx: number, offset: number) {
@@ -95,6 +95,7 @@ function calculateCharactersCoordinates(
     const r: { [key: number]: Point[] } = {};
     const episodeCardTopY = positionsByEpisode.value[0].y;
     const episodeCardBottomY = episodeCardTopY + episodeAreaHeight;
+    console.log(episodeCardBottomY)
     characters.forEach((character, idx) => {
         // Calculate default Y position
         const defaultYPosition = getCharacterDefaultY(idx, characters.length, episodeCardBottomY);
@@ -137,7 +138,11 @@ function calculateCharactersCoordinates(
                     x: getXPositionByEpisode(+ep.episode, +ep.season),
                 });
             } else {
-                r[character.id][r[character.id].length - 1].x = r[character.id][r[character.id].length - 1].x + (episodeAreaWidth / 2);
+                // r[character.id][r[character.id].length - 1].x = r[character.id][r[character.id].length - 1].x + (episodeAreaWidth / 2);
+                r[character.id].push({
+                    y: getCharacterIntoEpisodeY(idx, episodeCardTopY),
+                    x: getXPositionByEpisode(+ep.episode, +ep.season),
+                });
                 break;
             }
 
