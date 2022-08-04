@@ -1,4 +1,4 @@
-# bb-characters-timeline
+# Breaking Bad Timeline Chart
 
 ## Project Setup
 
